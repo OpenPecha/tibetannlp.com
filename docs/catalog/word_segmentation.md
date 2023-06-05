@@ -1,3 +1,5 @@
+#### 2. Word segmentation
+
 Our main protocol is that case markers and converbs are split from the preceding noun
 phrases. In general, we split as much as possible to create more insight into the internal
 (and historical) structure. In what follows, we first present examples of these case markers
