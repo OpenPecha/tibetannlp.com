@@ -1,0 +1,1456 @@
+### 3. POS tagging
+
+In this section, we go through every single morphosyntactic (part-of-speech) tag and provide
+11explanations and examples of when they are applied.
+
+### 3.1 Adjectives
+
+There is only one tag for adjectives: adj. We do not distinguish different types of adjectives
+or different grades of adjectives. Note that in general, verbs derived from adjectives are
+tagged (n.)v.invar unless they have -s, in which case they are (n.)v.past (see section on
+verbs).
+
+adj - adjectives</br>
+Adjectives are notoriously difficult to define in any Sino-Tibetan language. For our annotation
+purposes, we give the POS tag adj to those words that can occur in attributive position and
+are not verbal nouns. Morphologically, they are almost always multisyllabic. The paragon of
+adjectives are those that in -པོ་ , -མོ་ , -པ་, -མ་, -ཅན་, -ལྡན་, and -མེད་. Etymologically ཅན་, - ལྡན་ 'with',
+and - མེད་ 'without' are verbs, but when they occur in forms that are functioning nominally, they
+cannot be analysed as verbs. Therefore, we treat them together with the preceding syllable
+as an adjective. Although words such as ནག་ 'black', གསར་ 'new', and ཆེ་ 'big' are frequently
+treated like adjectives for pedagogical purposes, a single syllable in predicate position before
+verbal suffixes is tagged as a verb 'to be black', 'to be new', etc. These words may appear to
+occur attributively, but we see this as the formation of compounds. The compound བློན་ཆེན་
+'prime minister' contrasts beautifully with the noun and adjective pair བློན་པོ་ ཆེན་པོ་ 'great
+minister', etc.).
+
+There are various cases where homophonous verbs and adjectives may cause ambiguity,
+making it difficult to decide how to annotate them. We adhere to the following protocols for
+those cases. First, verbs derived from adjectives are tagged (n.)v.invar, as shown in (1):
+
+(1)</br>
+རབ་ adv.intense</br>
+ཏུ་ cv.term</br>
+འབྱུང་བ n.v.fut.n.v.pres</br>
+ར་ case.term</br>
+དཀ v.invar → this is tagged as v.invar and not as adj</br>
+འོ cv.fin</br>
+། punc
+
+Second, sometimes, nominalised forms are actually derived twice, i.e. first from adj → verb
+and then from verb → verbal noun. An example of this is seen here where ཆུང་བ་ can only
+mean 'the [time of] being small' and not 'the small person'. In those cases, they are tagged
+as n.v.invar, as shown in (2):
+
+(2)</br>
+ཆུང་བ n.v.invar → this is left as a double derivation n.v.invar</br>
+འི་ case.gen</br>
+དུས་ n.rel</br>
+12སུ་ case.term</br>
+ལེན་དྲན་གྲི་ལེནྡྲ་ n.prop</br>
+ན་ case.loc</br>
+སྒྲོལ་མ n.count</br>
+འི་ case.gen</br>
+རྟེན་ n.count</br>
+བཞུགས་པ n.v.invar</br>
+འི་ case.gen</br>
+ཕྱག་ n.count</br>
+ཏུ case.term</br>
+། punc</br>
+<utt>
+
+A similar example is found in (3): 'because his discipline was small, his accomplishments
+also were few'. Note that the second verbal noun in this example is derived from the verb 'to
+accomplish', so even though the nominalised form functions as a noun, it will still have the
+n.v. tag. The issue of n.v. versus n.count tag only arises with adjectives like 'small' → 'to be
+small' (=verbal) vs 'small person' (=nominal). More examples are given in (4-6) below.
+
+(3)</br>
+བརྩོན་འགྲུས་ n.count</br>
+ཆུང་བ n.v.invar 'to be small'</br>
+ས་ case.agn</br>
+གྲུབ་པ n.v.past 'accomplishment'</br>
+འང་ cl.focus</br>
+ཉུང་བ n.v.past.n.v.pres 'to be small/few'</br>
+ར་ case.term</br>
+འགྱུར v.fut.v.pres</br>
+། punc</br>
+<utt>
+
+(4)</br>
+རྒྱལ་བུ་ n.count</br>
+ཆུངས་བ n.v.past</br>
+ས་ case.agn</br>
+བློན་པོ་ n.count</br>
+རྣམས་ d.plural</br>
+ཀྱིས་ case.agn</br>
+ཆོས་ཁྲིམས་ n.count</br>
+བཤིག་ v.past</br>
+སྟེ cv.sem</br>
+། punc
+
+(5)</br>
+ཕྱི n.rel</br>
+ར་ case.term</br>
+འཁོར་བ་ n.v.fut.n.v.pres</br>
+13ནི་ cl.focus</br>
+ཉུང་ v.invar</br>
+རབ་ adv.intense</br>
+བོ cv.fin</br>
+། punc
+
+(6)</br>
+ཚེ n.count</br>
+འི་ case.gen</br>
+མཐ n.rel</br>
+ར་ case.term</br>
+ཐུག་པ n.v.invar</br>
+འི་ case.gen</br>
+གྲངས་ n.count</br>
+ནི་ cl.focus</br>
+ཉུང་ v.invar</br>
+སྟེ cv.sem
+
+### 3.2 Adverbs
+
+Adverbs modify verbs, adjectives or other adverbs. We distinguish between "directional",
+"intensifying" and "mimetic" adverbs.
+
+adv.dir</br>
+Directional adverb. We use this tag for adverbs that end in - ཆད་ or -ཅད་. We also include ཕན་
+ཚུན་ 'mutually' in this category, for lack of a better place to put it. Words tagged adv.dir
+include: ཡན་ཆད་ 'above', མན་ཆད་ 'below', ཕྱིན་ཆད་ 'after', ཚུན་, ཚུན་ཆད་ and ཚུན་ཅད་ ‘ within’, སྔོན་ཆད་ 'before',
+སླན་ཆད་ 'after', ཕན་ཆད་ and ཕན་ཅད་ ‘ onwards’, ཡན་ and ཡན་ཆད་ ‘ above’.
+
+adv.intense</br>
+Intensifying adverb. This tag was created for the adverbs རབ་(ཏུ་) 'very' and ཤིན་(ཏུ་) 'very',
+because as uninflected stems they do not occur independently. The following words are also
+tagged adv.intense: ཅུང་ཟད་, ཡེ་ , ཧ་ཅང་, ཆེས་, ནན་ཏ, and ཅུང་ཙམ་.
+
+adv.mim</br>
+Mimetic adverb. This tag is used for onomatopoeia and phonophors. Examples include ཁོར་
+ཁོར་ཡུག་, ནར་ནར་, ཙབ་ཙོབ་, རྩོག་རྩོག་, ཁྲེ་ལོག་ལོག་, གཅེར་རེ་ , ཅེ་རེ་ , ཏབ་ཏབ་པོ , ཏབ་ཏོབ་, ཏུར་ཏུར་པོ་ , རིག་རིག་, ལིང་, and ཧྲིག་ཧྲིག་.
+
+### 3.3 Case markers
+
+Case markers are always separated from the nouns they modify and receive their own
+dedicated case tag. In our annotation scheme we do not annotate the absolutive case since
+it is not overt. We do not add empty category tokens that can subsequently get tagged so in
+a sentence like (7), བླ་མ་ 'lama' has no overt marker to indicate that it is in the absolutive.
+
+(7)</br>
+མར་པ n.prop</br>
+ས་ case.agn</br>
+བླ་མ་ n.count</br>
+གསང་ v.invar</br>
+སྟེ cv.sem</br>
+། punc</br>
+<utt>
+
+case.all</br>
+Allative case. The allative case is the clitic morpheme ལ་ -la when it occurs suffixed to
+nouns, noun phrases or verbal nouns.
+
+(8)ནམ་མཁའ་ལ་ ལྟ་“to look at the sky” (MB D 140r5 - Bialek 2022, p.60)
+
+case.all can also mark oblique arguments of certain verbs. For more meanings, and
+examples see Bialek 2022 pp.59-60. Bialek 2022 argues that when suffixed to a verbal noun
+ལ་ indicates simultaneity or anteriority with the action of the main verb. She cites the following
+example that is supposed to be simultaneous (but her translation actually indicates
+causality), which we also tag as case.all:
+
+(9)ཟས་དེ་ཡོན་ཏན་ཅན་ཞིག་འདུག་པ་ལ ། ངས་ཀྱང་ཟ། “As this food is excellent, I will eat [it]
+too.” (GLR 27r6, Bialek 2022 p.152)
+
+For more examples see Bialek 2022, p.148-149 and p. 152.
+
+case.abl
+
+Ablative case. The ablative case is the morpheme ལས་ -las when it occurs suffixed to nouns,
+noun phrases or verbal nouns. After nouns, it usually means origin/source:
+(10)
+ནམ་མཁའ་ལས ་བབས་སོ། “[He]  came  down  from  the  sky.”
+            (MB D 140r5 - Bialek 2022, p.91)
+
+The comparative construction use the ablative ལས་ -las as the comparative marker. The
+morpheme follows the noun/noun phrase which is compared, and the quality (adjective) for
+which it is compared follows the particle:
+
+(11)གཞན་ལས་ཆེ་བ་ “bigger (ཆེ་བ་) than the other one”
+(SBM; apud Schwieger 2006: 315 - Bialek 2022, p.185)
+
+When the morpheme ལས་
+anterior to the following
+consistent, we tag these
+only occurs after verbs.
+follows a verbal noun, it indicates that the action of the converb is
+action. Even though this is referring to an event (a verb), to be
+examples after verbal nouns as case.abl and not as cv.abl, which
+If the verb is reduplicated it indicates continuation and it can be
+15translated with “while”:
+
+(12)ཁྱིམ་བདག་ཀྱང་གླང་འོངས་པར་མཐོང་བ་ལས་ མ་བཏགས་པས་ན། མིག་ཕྱུང་ཞིག
+“Because (པས་ན) the householder, upon (ལས་) seeing that the ox came in, did not bind [it],
+gouge out [his] eyes!” (MB D 272v1)
+
+case.agn</br>
+Agentive case. The agentive case is marked by any of the allomorphs གིས་ -gis, གྱིས་ -gyis, ཀྱིས་
+-kyis, ས་ -s, ཡིས་ -yis when it occurs suffixed to nouns, noun phrases or verbal nouns. It marks
+the subject of transitive verbs (we do not make distinctions when its role is more of a
+“causative case”):
+
+(13)དེ་ནས་སྤྲེའུ་ཕྲུག་རྣམས་ཀྱིས་ལོ་ཐོག་ཟོས་སོ། “Then, the monkey-children ate the crops.”
+                         (GLR 23v4 - Bialek 2022, p.82)
+
+case.ass</br>
+Associative case. The associative case is the clitic morpheme དང་ -dang when suffixed to
+nouns, noun phrases or verbal nouns. It has a coordination function - as the conjunction
+“and”- between two or more nouns or noun phrases. It can mark oblique arguments of
+certain verbs that express similarity, association, or separation (dissociation).
+
+(14)སྨན་པ་དང་མོ་མ་རྣམས་“doctors and diviners”    (ML D 10r - Bialek 2022, p.84)
+
+After a nominalised verb དང་ serves to coordinate two syntactically equal clauses with each
+other. It can be translated as “and”.
+
+
+(15)ལོ་གསུམ་ལོན་པ་དང་ །སྤྲེའུ་བྱང་ཆུབ་སེམས་དཔའ་བལྟར་ཕྱིན་པས།</br>
+“Three years passed and (དང་) the bodhisattva-monkey went to inspect [them].”
+(GLR 23r4. Bialek 2022 p.149)
+
+case.comp</br>
+Comparative case. The comparative construction is expressed using the morpheme པས་/བས་.
+after a noun, noun phrase or verbal noun. Note that this function can also be expressed by
+the ablative case marker (see case.abl and Hill 2012).
+
+(16)གླང་པོ་ཆེ་བས་སྟོབས་ཆེ་བ་
+lit.
+“of
+greater
+strength than an elephant”
+(ML D 17r - Bialek 2022, p.186)
+
+For more complex examples see Bialek 2022, p.186.
+
+case.ela</br>
+Elative case. The elative case is the clitic morpheme ནས་ -nas when suffixed to nouns, noun
+phrases or verbal nouns. Usually it expresses a place/time from which an action begins or
+the cause for which an action occurs. It can form adverbs when suffixed to adjectives.
+
+(17)
+ནམ་མཁའ་ནས་
+“from the sky” (GLR 22v5 - Bialek 2022. p.90)</br>
+For more meanings, and examples see Bialek 2022 pp. 90-91.
+
+case.fin</br>
+Sentence-final particle. This is a sentence-final particle that does NOT occur after a verb.
+Most of the time sentence-final particles occur after verbs and are thus tagged cv.fin.
+However, they can also appear at the end of the sentence after noun phrases, verbal nouns
+or
+other
+parts
+of
+speech,
+as
+shown
+in
+(18):
+
+(18)</br>
+ཡང་ adv.proclausal</br>
+ན་ case.loc</br>
+ནི་ cl.top</br>
+མི་ n.count</br>
+འདི d.dem</br>
+འི་ case.gen</br>
+ཆུང་མ་ n.count</br>
+མངའ་བྱད་ n.count</br>
+ཤིན་ adv.intense</br>
+ཏུ་ cv.term</br>
+མཛེས་ v.invar</br>
+ཤིང་ cv.impf</br>
+བཟང་མོ་ n.count</br>
+ཞིག་ d.indef</br>
+གོ case.fin</br>
+། punc</br>
+<utt>
+
+case.gen</br>
+Genitive case. The genitive case is any of the allomorphs གི་ -gi, གྱི་ -gyi, ཀྱི་ -kyi, འི་ -'i, ཡི་ -yi,
+when suffixed to a noun, noun phrase or verbal noun. The main function of the genitive
+particle is to mark a noun or a noun phrase as possessive, modifying another noun.
+
+(19)
+རྒྱལ་པོའི་སྲས་གསུམ་ “king’s three sons” (GLR 25r4 - Bialek 2022, p.63)
+
+Note that when a genitive particle is added to a nominalised phrase or clause it forms a
+relative
+clause:
+
+(20)
+ཤིན་ཏུ་དད་པའི ་སེམས་ “ a mind that utterly believes” (MB D 138v5, Bialek 2022 p.139)
+
+case.loc</br>
+Locative case. The locative case is the clitic morpheme ན་ -na when suffixed to a noun,
+noun phrase or to a verbal noun. It can have temporal or spatial meaning.
+
+(21)
+གྲོང་ཁྱེར་དེ་ན་ “in that town”
+(MB D 138r7 - Bialek 2022, p.58)
+
+ན་ has temporal function when it follows a verbal noun, meaning 'if/when':
+
+It has temporal function when it follows a verbal noun.
+
+(22) ཉི་མའི་འོད་ཟེར་ཤར་བ་ན ༎ འབྱུང་པོའ ་ ི བྱ་རྣམས་ལོང་བར་འགྱུར།། “When rays of the sun have
+risen, the birds of demons (i.e. owls and other nocturnal birds) become blind.”
+(SSP 3c–d, Bialek 2022, p.152)
+
+case.nare</br>
+The case -na-re. The case suffix ན་རེ་ -na-re introduces direct speech.
+
+(23)
+“The
+དྲག་སྲིན་མོ་ན་རེ །
+rock-ogress
+replied,
+‘If
+ཁྱེད་ངའི་ཁྱོ་མི་བྱེད་ན་ང་ཚོའི་དུས་བྱེད་དོ་ཟེར་ནས།
+you
+don’t
+become
+my husband, I will die.’”
+(GLR 22r6 - Bialek 2022, p.158)
+
+case.ques</br>
+Question particle. Question particles usually follow verbs, but occasionally, they can follow
+nouns or verbal nouns. These question particles that are NOT following verbs are tagged
+case.ques (unlike cv.ques).
+
+(24)</br>
+བདག་ p.pers</br>
+དེ་ d.dem</br>
+ལ་ case.all</br>
+ཅུང་ཟད་ adv.intense</br>
+ཙམ་ d.tsam</br>
+མི་ neg</br>
+དགའ་བ n.v.fut.n.v.pres</br>
+འམ་ case.ques</br>
+<utt></br>
+འཁོན་ v.fut.v.pres</br>
+དུ་ cv.term</br>
+འཛིན་པ་ n.v.pres</br>
+མེད་ v.invar.med</br>
+དོ cv.fin</br>
+། punc</br>
+<utt>
+
+case.rung</br>
+Case marker རུང་. རུང་ when it is NOT following a verb (unlike cv.rung).
+
+(25)</br>
+འཛམ་བུ n.prop</br>
+འི་ case.gen</br>
+གླིང་ n.count</br>
+དབང་ n.count</br>
+རུང་ case.rung</br>
+འཆི་ v.fut.v.pres</br>
+ཚེ་ n.rel</br>
+བཞག་ v.past.bzhag</br>
+དགོས་ v.invar.dgos</br>
+འདུག་པ n.v.invar.dug</br>
+ས case.agn</br>
+། punc</br>
+<utt>
+
+case.sem</br>
+Semi-final particle. Just like the sentence-final particle, the semi-final particle usually
+appears after verbs. However, it can also occur after noun phrases or verbal nouns, in which
+case it is tagged as case.sem (unlike cv.sem which occurs after verbs).
+
+(26)
+རྒྱལ་པོ་ n.count
+གསལ་རྒྱལ་ n.prop
+གྱི་ case.gen
+བུ་མོ་ n.count
+རྡོ་རྗེ n.count
+འི་ case.gen
+ལེའུ་ n.count
+སྟེ་ case.sem
+བདུན་པ num.ord
+འོ case.fin
+། punc
+case.term
+Terminative case. The terminative case is any of the allomorphs རུ་ -ru, སུ་ -su, ཏུ་ -tu, དུ་ -du, ར་
+-r, when suffixed to a noun, noun phrase or verbal noun. It can have a locative meaning. In
+addition, it can form adverbs.
+(27)
+ལྷའི་གནས་སུ་ “in a deities’ place” (MB D 140r3 - Bialek 2022 p.75)
+The terminative can also be used also to express a beneficiary or a result of an action and it
+19can mark oblique arguments of certain verbs (for more examples see Bialek 2022 p.75).
+
+### 3.4 Clitics
+
+cl.focus
+Focus clitic. Focus clitics ཀྱང་ and ཡང་ are tagged cl.focus. Other words currently tagged with
+this tag include: འང་, ཅང་, and ཕྱིར་ཡང་. The word ལྟ་ when it is not tagged as a verb, or a relator
+noun, is also tagged as a focus clitic.
+cl.top
+Topic clitic. This tag is introduced for the topic clitic -ni ནི་ . In this way we can automatically
+create a topic phrase NP-TOP with the automatic chunkparsing.
+དེ་བཞིན་གཤེགས་པ་ནི་ ཡོན་ཏན་མངའོ།
+(28)
+“Regarding Tathāgata, [he] possesses excellent
+qualities.” (MB D 138v6, Bialek 2022 p.119)
+cl.quot
+Quotative clitic. The 'quotative clitic' has the allomorphs ཅེས་, ཞེས་, and ཤེས་. The forms ཅེ་ན་, ཅེས་
+པ, etc. reveal that these are originally verbs, but it in order to do justice to their new function
+and to facilitate research into (in)direct speech, we keep the tag cl.quot. A selection of words
+tagged with this tag are: ཞེས་, ཅེས་, ཞེས་པ་, ཞེ་ , ཅེས་པ་, ཤེ་ , ཅེ་ , ཅེས་བ་, ཞིས་ (a misspelling of ཞེས་), and ཞེས་བ.
+
+### 3.5 Converbs
+
+Unlike the name suggests, converbs in this annotation manual are not actually verbs, but the
+subordinate conjunctions attached to subordinate clause verbs. These 'converbs' are
+homophonous with their case marking counterparts, but will be tagged "cv.X" instead of
+"case.X" because they always follow verbs. Note that to be consistent, after verbal nouns,
+these markers are always tagged "case.X", because of the noun-like nature of the verbal
+noun.
+cv.abl
+There are few cases when cv.abl occurs after a verb stem. The ablative converb is the
+morpheme ལས་ -las when it follows a verb. It usually means origin/source:
+(29)
+འཕགས་པ་ n.v.invar
+ཐོགས་མེད་ n.prop
+ཐུབ་པ་དཔག་བསམ་ཤིང་ n.count
+གྱུར་ v.past.gyur
+ལས cv.abl
+20།
+punc
+cv.agn
+Agentive converb. The agentive converb has the allomorphs གིས་ -gis, གྱིས་ -gyis, ཀྱིས་ -kyis,
+when it follows a verb. It forms causal clauses.
+(30)
+ང་ p.pers
+མི་ neg
+ཉན་ v.fut.v.pres
+གྱིས་ cv.agn
+ཁྱོད་ p.pers
+དང་ case.ass
+ཁྱོ་ཤུག་ n.count
+ཏུ་ case.term
+བྱ་ v.fut.byed
+དགོས་ v.invar.dgos
+སོ cv.fin
+། punc
+<utt>
+cv.all
+Allative converb. The allative converb is the clitic morpheme ལ་ -la when it follows a verb. It
+has a coordinative function between two clauses.
+(31)
+སྟག་མོ་འདི་ནི་ཉམ་ཆུང་ལ་ རིད་པ་ “this tigress, that was weak and (ལ་) meagre”
+(MB D 139r5, Bialek 2022, p. 148)
+cv.are
+The converb are (འ་རེ་ ). This tag is used to tag the converb ཏ་རེ་ and its allomorphs (cf. Walter
+Wimon, 1967, 'The Tibetan Particle "re",' Bulletin of the School of Oriental and African
+Studies, 30.1, pp. 117-126). It is worth noting that the Tibetan sentences ending in འ་རེ་ are
+often preceded by sentences ending in an imperative; the two kinds of sentences have to be
+considered (and translated) together.
+(32)
+ཐམས་ཅད་སྡུག་བསྔལ་བར་གྱུར་ཏ་རེ་
+“lest misfortune should befall us all”
+(Vinayavastu ; Ti. T, XLI,237a1= N, hDul, Kha, 559A)
+cv.ass
+Associative converb. The associative converb is the clitic morpheme དང་ -dang if it follows a
+verb. This tag is particularly used with the polite imperative meaning of དང་. It is added at the
+end of an imperative clause in order to connect this clause with the following, indicative one.
+When དང་ connects an imperative clause with another clause, it also signals that the next
+21clause has a subject distinct from the imperative clause.
+མཆེད་གཉིས་སྔར་གཤེགས་ཤིག་དང་ ། བདག་དོན་ཞིག་གཉེར་ཏེ། སླད་བཞིན་པར་མཆིའོ།
+(33)
+“Oh, brothers, go on ahead! Having taken care of something, I will come after.”
+(MB D 139v2, Bialek 2022 p.146)
+cv.cont
+Continuing converb. The continuing converb is formally similar to the genitive followed by -
+ན་ and functionally similar to the imperfective converb in earlier strata of literature. The words
+tagged with this tag are: གིན་, ཀྱིན་, གྱིན་. The function of this particle is to connect the main verb
+with the following special verb. Their common trait is that they express the progressive
+aspect.
+(34)
+ཆོས་ཟབ་མོ་སྟོང་པ་ཉིད་ལ་མོས་པར་བེད་གིན་ ཡོད་དུས།
+“While
+[the
+monkey]
+was
+devoting itself to the profound Buddhist teaching, the voidness, [. . .].”
+(GLR 22r4, Bialek p.195)
+cv.ela
+Elative converb. The elative converb is the clitic morpheme ནས་ -nas when it follows verbs. It
+has a resultative function.
+(35)
+ལྷ་མོ་དེས་ དེ་སྐད་སྨྲས་པ ་ཐོས་ནས་ ཁམས་ཏེ།
+uttered, [she] fainted away.”
+“When the queen had heard these words
+(MB D 139v7–140r1, Bialek 2022, p.144)
+cv.fin
+Sentence-final particle after verbs. The sentence-final particle is an explicit marker of a
+finite verb in the indicative mood. Words tagged with this tag include: སོ , འོ , དོ , ངོ , ནོ , ཏོ , རོ , ལོ , གོ , བོ ,
+མོ , and པོ .
+དེའི་ཚེ་སྟག་མོས་རྒྱལ་བུའ་ཤ་ན་ཟད་པར་ཟོས་སོ ། “By that time the tigress has completely
+(36)
+eaten the flesh of the prince[’s body].”
+(MB D 140r1. Bialek 2022, p.119)
+cv.gen
+Genitive converb. The genitive converb is any of the allomorphs གི་ -gi, གྱི་ -gyi, ཀྱི་ -kyi, འི་ -'i, ཡི་
+-yi, when it follows a verb. It usually marks an adversative relationship between the
+preceding verb and the following one. If the verb is negated then it has more of a concessive
+meaning, rendered as “although”, “but”.
+སྡིག་པ་བྱས་པ་ན་སེམས་ཅན་དམྱལ་བར་ལྟུང་གི ། དགེ་བ་བྱས་ན་མཐོ་རིས་སུ་སྐྱེད་སྟ
+(37)
+“If [one] committed an offence, [he] will fall to hell. Whereas (གི་ ), if [one] did good deeds, [he]
+will be reborn in heaven.”
+(MB D 140r7, Bialek 2022, p.147)
+22cv.impf
+Imperfective converb. The imperfecctive converb is the morpheme that has the three
+allomorphs ཞིང་, ཅིང་, and ཤིང་ and always follows a verb. This converb can frequently be
+rendered with “and” in English and it has mainly a coordinate function between two
+predicates.
+(38)
+རྒྱལ་པོ་དེ་ཕྱི་རོལ་ཏུ་འཆག་ཅིང་ དོང་ངོ་།
+Lit. “The king took a walk outside and went.”
+(MB D 139r3–4, Bialek 2022, p.108)
+cv.loc
+Locative converb. The locative converb is the clitic morpheme ན་ when it follows a verb. It
+has
+a
+conditional
+function:
+(39)
+སྐ་བ་ཡོད་ན་ངེས་པར་འཇིག་གོ། “If [something] has birth, [it] will certainly perish.”
+(MB D 140r6–7, Bialek 2022 p.145)
+For more examples see Bialek 2022, p.145-146.
+cv.ipv
+Imperative converb. The imperative converb is the morpheme that explicitly marks the
+imperative or prohibitive mood, which has one of the three allomorphs ཤིག་, ཅིག་, and ཞིག་.
+ཤིག་པ་ is also tagged with this tag.
+(40)
+བདག་ལ་སྨྲོས་ཤིག་ “Tell us!”
+(MB D 140r5, Bialek p.93)
+cv.odd
+Odd converbs. Odd converbs are any that we discovered after fixing the tagset. So far we
+the following words with this tag: ལས་ཆེ , ཨང་, ཚད་. We acknowledge that that this not a good tag,
+but we need to do research on each of the individual markers in this category before we can
+give them their own tag.
+cv.ques
+Question converb. The question converb is any allomorph of the marker འམ, which is an
+explicit marker of a polar questions or alternate questions. Words tagged with this tag
+include: འམ, སམ, ནམ, དམ, གམ, ངམ, ཏམ, རམ, ལམ, བམ, མམ, ངེ་ , and མཾ་ .
+(41)
+Polar
+question:
+(42) Alternate questions:
+ནུས་པ་ཡོད་དམ །
+བདེན་ནམ་ མི་བདེན།
+“Is
+there
+anybody
+suitable?”
+(MB D 139r7, Bialek p.136)
+“Is [it] true or false (lit. not true)?”
+(ML D 18v, Bialek p.136)
+23cv.rung
+The converb རུང་. When the morpheme རུང་ appears after a verb it functions as a converb with
+a concessive meaning.
+(43)
+uncle
+ཨ་ཁུ་དང་ཨ་ནེ་གཉིས་ཅི་ལ་མི་འཆམ་རུང་ ལྟོ་ལ་འཆམ་པ་དང་།
+and
+aunt
+never
+agreed
+on
+anything,
+“Although the paternal
+[they] did agree on food.”
+(ML D 12r, Bialek 2022 p.200)
+cv.sem
+Semi-final converb. The semi-final converb is the morpheme that has the three allomorphs
+ཏེ , སྟེ , and དེ . It usually follows a verb and it is also called gerundial particle - it can introduce a
+fact, person, event, described in more details in the following sentence (can be rendered as
+“and” or with a semicolon in English) or - as the name suggests - it can have a gerundial
+function. In both cases the verb preceding the cv.sem and the verb of the main clause
+(usually followed by a cv.fin) have the same subject.
+འཛམ་བུ་གླིང་འདི་ན་རྒྱལ་པོ་ཤིང་རྟ་ཆེན་པོ་ཞེས་བྱ་བ་ཞིག་ཡོད་དེ ། རྒྱལ་ཕྲན་ལྔ་སྟོང་སྙེད་ལ་
+དབང་བྱེད་དོ།། “There was a king called Śiṅ-rta-čhen-po in this continent; [he] was ruling
+(44)
+over about five thousand vassals.”
+(45)
+(MB D 139r2, Bialek 2022, p.118)
+དེ་ནས་བྲག་སྲིན་མོ་ལངས་ཏེ། སྤེའུ་ལ་འདྲི་ཅེས་ཟེར་རོ༎
+“The rock demoness arose and asked the monkey thus.” (GLR 22r6, Bialek 2022, p.118)
+For more examples and specific uses of the cv.sem see Bialek 2022 pp. 118-119.
+cv.term
+Terminative converb. The terminative converb is any of the allomorphs རུ་ -ru, སུ་ -su, ཏུ་ -tu,
+དུ་ -du, ར་ -r, when it follows a verb or a verbal noun. The terminative after the verb stem
+marks an infinitive clause that expresses purpose of an action:
+བདག་གི་བུ་དགུམ་པ་ལ་ཐུག་པ་འདིའི་སྐྱབས་མཛད་དུ་ གསོལ།
+(46)
+sons of mine who are about to be killed.”
+“[I] beg [you] to save these
+(MB D 138v, Bialek 2022 p.146)
+
+### 3.6 Determiners
+
+Determiners are tagged d.X. We distinguish between demonstratives, emphasising
+determiners, indefinite markers, plural markers, quantifiers and "tsam".
+24d.dem
+Demonstrative. This tag is used for the demonstratives འདི་ 'this' and དེ་ 'that'. These two
+words are tagged as demonstratives also when used as determiners (i.e. we do not
+distinguish r རྒྱལ་པོ་དེ་ 'that king' from དེ་ 'that one, him'). Words tagged with this tag include: དེ་ ,
+འདི , ཡ, ཚུ, མ, ཕ, ཕྱི་ , ཕ་གི་ , མ་ཀི , མ་གི , མ་གི་ , མ་ཀི་ , འདི་པ, ཡ་གི་ .
+d.emph
+Emphasising determiner. This category is for ཉིད་ in phrases such as རྒྱལ་པོ་ཉིད་ 'that very king'
+or ལུས་ཉིད་ 'this body'. This syntactic use of ཉིད་ must be distinguished from its use in Buddhist
+terminology - ཉིད་ inside of words, e.g. སྟོང་པ་ཉིད་ 'emptiness'. Apart from ཉིད་, ཁོ་ན་ 'the very, same'
+is also tagged as d.emph. This use of ཁོ་ན་ should not be confused with its function as a third
+person pronoun in Old Tibetan. In one case ཁོ་ appears not as a personal pronoun but as
+what seems to be a variant of ཁོ་ན་; this ཁོ་ we also classify as an emphatic, e.g.
+སྨྲས་པའི་ཚིག་འདི་བདེན་ན་བདེན་པའི་ཚིག་བདེན་པའི་ཚིག་སྨྲས་པས། བདག་གི་ལུས་འདི་སྔ་མ་ཁོ་བཞིན་དུ་
+རྨ་མེད་པར་གྱུར་ཅིག་ 'If these words that I have said are true, then because of saying true
+(47)
+words, let this my body be without wounds like before' (D341, vol 74, page 137b).
+Words tagged with this tag include: ཉིད་, རབ་, ཁོ་ན་, and ཁོ་ .
+d.indef
+Indefinite article. This category is used for the allomorphs of the indefinite marker ཅིག་,ཞིག་,
+ཤིག་ as in ཕོ་ཉ་ ཅིག་ 'a messenger'. The indefinite marker, which occurs inside of noun phrases,
+must be distinguished from the identically looking imperative converb (see cv.ipv), which
+occurs suffixed to the imperative stems of verbs.
+d.plural
+Plural marker. The plural markers རྣམས་ , དག་, and ཚོ་ are tagged as their own category 'plural'.
+However, plural pronouns (བདག་ཅག་, ཁྱེད་ཅག་, འུ་བུ་ཅག་) are treated as one word and tagged as
+pronouns (see p.pers). Words tagged with this tag include: རྣམས་, དག་, ཡོངས་, སྣ་ཚོགས་, ཚོ་ .
+d.quant
+Quantifier. For quantifiers like ཀུན་ 'all', ཐམས་ཅད་ 'all', གཞན་ ‘ other’, ཀ་ ‘ all’, ག་ ‘ all’ - usually found
+after numbers, རེ་ and རེ་རེ་ ‘ each’, ཤ་སྟག་ ‘ only, all’, ཁ་ ‘ some’, ཡ་རེ་ ‘ each one of two’, སྣ་རེ་ ‘ a few’,
+གཞིན་ ‘ ?’, མང་པོ་ ‘ many’, སྤྱི་ ‘ all’, ཅུང་ཟད་ ‘ a few’, དུ་མ་ ‘ many’, ཤས་ ‘ some, a few’, མཐའ་དག་ ‘ all’, ཆུང་ཟད་ ‘ a
+little’, སྣ་དགུ་ ‘ all kinds of’ (English quantifiers are 'all, every, some, a few, a lot, many, etc.').
+Note many of these markers can also be used as arguments, in which case they are tagged
+p.indef.
+(48)
+རི་ n.count
+ཐམས་ཅད་ d.quant
+གྲོག་པོ n.count
+25ར་ case.term
+སོང་ v.past.gro
+། punc
+(49)
+ཁོང་ p.pers
+གྲོགས་པོ་ n.count
+རྣམས་ d.plural
+ནི་ cl.top
+ཕྱག་རྟེན་ n.count
+གཞིན་ d.quant
+ཙམ་ d.tsam
+ལས་ case.abl
+མི་ neg
+གཏོང་བ n.v.pres
+ར་ case.term
+འདུག v.invar.dug
+ང p.pers
+ས་ case.agn
+གསེར་གཡུ་ n.mass
+ཀུན་ d.quant
+ཕུལ་ v.past
+ཏེ cv.sem
+། punc
+<utt>
+(50)
+ད་ adv.temp
+ལྟ་ n.rel
+ཆོས་པ་ n.count
+བཟང་པོ adj
+ར་ case.term
+རློམ་པ n.v.invar
+འི་ case.gen
+མི་ n.count
+བསོད་ནམས་ཅན་ adj
+འགའ d.quant
+། punc
+<utt>
+(51)
+སྡུག་ n.count
+སྣ་དགུ་ d.quant
+བཏང་ v.past
+རྗེས་ n.rel
+གསོན་སྙིང་ n.count
+26ལ་ case.all
+དམར་ v.invar
+འདོན་ v.pres
+བྱེད་ v.pres.byed
+ཟེར་བ་ n.v.fut.n.v.pres
+ལ case.all
+། punc
+<utt>
+(52)
+དྲིན་ n.count
+གཟོ་བ་ n.v.invar
+ཆུང་ཟད་ d.quant
+ཀྱང་ cl.focus
+མ་ neg
+བྱས་པ n.v.past
+(53)
+ངན་སོང་ n.count
+གི་ case.gen
+སྡུག་བསྔལ་ n.count
+མཐའ་དག་ d.quant
+ལས་ case.abl
+སྐྱོབ་པ n.v.pres
+ར་ case.term
+མཛད་པ་ n.v.invar.mdzad
+ལགས་ v.invar.lags
+སོ cv.fin
+། punc
+<utt>
+(54)
+དེ d.dem
+ར་ case.term
+ཞག་ n.count
+ཤས་ d.quant
+བཞུགས་པ n.v.invar
+ས་ case.agn
+རྫི་བོ་ n.count
+ཞབས་ n.count
+ཕྱི n.rel
+ར་ case.term
+འབྲངས་པ་ n.v.past
+(55)
+གཡོ་ཐབས་
+n.count
+27དུ་མ d.quant
+ས་ case.agn
+ཁང་ n.count
+ཞིང་ n.count
+ཕྲོགས v.past
+། punc
+<utt>
+(56)
+གདམས་ངག་ n.count
+སྤྱི་ d.quant
+ལ་ case.all
+རང་བྱན་ n.count
+ཚུད་ v.past.v.pres
+ནས cv.ela
+། punc
+<utt>
+(57)
+ཐུགས་ n.count
+བསྙུང་བ n.v.invar
+འི་ case.gen
+མི་ n.count
+མང་པོ་ d.quant
+གྲི་ཁ n.count
+ར་ case.term
+ཤི་བ་ n.v.past
+གཟིགས་ v.past.v.pres
+ནས cv.ela
+། punc
+<utt>
+(58)
+ཉན་ཐོས་ n.count
+གཉིས་ num.card
+ཀ d.quant
+འི་ case.gen
+མངོན་པ n.count
+(59)
+ཡབ་ཡུམ་ n.count
+གྱི་ case.gen
+ཐུགས་ n.count
+ཀ d.quant
+ར་ case.term
+བཏང་ v.past
+28མི་ neg
+འཚལ v.invar.tshal2
+། punc
+<utt>
+(60)
+རྣམ་ཐར་ n.count
+ཡང་ cl.focus
+དེ་ d.dem
+ཀ d.quant
+ས་ case.agn
+འཁྱོངས v.invar
+། punc
+<utt>
+(61)
+སྲོད་ adv.temp
+ལ་ case.all
+ཐེག་ཆེན་ n.count
+འདི་ d.dem
+རྒྱུ་ n.count
+བཟང་ v.invar
+ལ་ cv.all
+འབྲས་བུ་ n.count
+ཁ་ d.quant
+གཡེལ་བ་ n.v.fut.n.v.pres
+འདྲ་ v.invar.dra2
+གསུང་ v.invar
+(62)
+བརྒྱ་བྱིན་ n.prop
+དང་ case.ass
+ཚངས་པ n.prop
+འི་ case.gen
+རྒྱལ་པོ n.count
+ས་ case.agn
+ལག་པ་ n.count
+ཡ་རེ་ d.quant
+ནས་ case.ela
+ཟིན་ v.invar
+ཏེ cv.sem
+། punc
+<utt>
+d.tsam
+Tsam and words with similar distribution. Words tagged with this tag include ཙམ་, སྙེད་, ཙམ་
+29པ་, རྙེད་ (a misspelling for སྙེད་), ཙམ་པ, སྙད་, and སྙེད་པ.
+
+### 3.7 Interjections
+
+Interj
+Interjection. This tag is used for interjections. Words tagged with this tag include: ཀྱེ་མ་, ཀྱེ་ , ཨ་ལ་
+ལ་, ཀྱི་ཧུད་, ཁོ་དེ , མ་ལ་, འོ་དོད་, ཧེ་ , ཨེ་མ་, and ཨེ་ཨེ་ .
+
+### 3.8 Nouns
+
+n.temp
+Temporal noun. Temporal nouns are those that occur in syntactic positions or have
+morphological structure that suggests they are nouns. They refer to time, and are generally
+not followed by case markers. Examples of temporal nouns are: ད་, སྔོན་, སྔ་, ད་དུང་, ནང་པ, ཕྱི་ཉིན་, ཁ་
+སང་, དོ་ནུབ་, གདོད་, ཉིན་, དེ་རིང་, དེང་, ནུབ་, མཚན་མོ་ , ཅིག་ཅར་, གཟོད་, ཐོག་མ་, དབྱར་, དིང་སང་, མདང་, མཚན་, སང་, དགུན་, དེང་སང་,
+ནངས་པ, ཕྱི་ , ཡུན་རིང་, སྲོད་, གདུགས་ཚོད་, གནངས་, གུང་, གློ་བུ, ཉིན་མཚན་, ད་ལོ , ནང་, ནངས་, ཕྱི་དྲོ་ , མཚན་ཡལ་, འདང་, སླན་ཆད་, ཁར་རྩང་,
+ཁྲུགས་, གནའ་, གཟོད་མ་, ཉིན་ཞག་ཕྲུགས་, ད་ནང་, ད་རུང་, དོ་ནུབ, ནང་བ, ནངས་བ, ནམ་བཞིག་, ནུབ་མོ , ཕྱི་ཕྱི , མཚན་ཐོག་ཐག་, འཆར་ཁ་, འདང་
+གསུམ་, འཕྲོ་ , རྒྱ་, སང་ཉིན་, སང་དགོང་, སང་ནང་པ, སྐྱ་རེངས་, སྔ་དྲོ་ , སྔ་སོ , སྔ་སོ་ , སྔོན , སྔོན་མ་.
+n.count
+Count noun. Lexical nouns head a noun phrase and can have nominal suffixes such as -མོ་ ,
+- པོ་ and -བུ་. We treat a - པ་ or - བ་ as part of the preceding word, regardless of the part-of-
+speech of the preceding word. Sanskrit terms, e.g. ཀུན་ཏུ་རྒྱུ་ 'parivrājaka', are treated as a noun
+together because it looks like a verb phrase, but functions syntactically as a noun.
+In general, when two nouns occur in succession they are understood as a compound; the
+dvandva compound ཕ་མ་ 'parents' is treated as one noun rather than two ( ཕ་ 'father' and མ་
+'mother') and the tatpuruṣa compound ཁྱིམ་བདག་ 'householder' is likewise treated as one noun
+rather than two ( ཁྱིམ་ 'home' and བདག་ 'lord'). When an adjective precedes its head this is also
+treated as a compound. Thus, because དུག་བཙན་པོ་ would be the expected order for 'mighty
+poison', we treat བཙན་དུག་ 'mighty poison' (vol. 74, page 147a) as a single word.
+Apposition is the one category of exceptions when the concatenation of two nouns is not
+treated as a compound. An example of this type is the two words བུ་ཁྱེའུ་ in the following
+sentence:
+(63) དེའ ་ ི ཚེ་ཡུལ་དེ་ན་ཁྱིམ་བདག་ཅིག་ལ་བུ་ཁྱེའུ ་ཞིག་བཙས་ན། 'At that time, in that land, when a child,
+a son, was born to a householder'.
+Rather than understanding ཁྱེའུ་ as an adjective modifying བུ་, or taking བུ་ཁྱེའུ་ as one word, the
+second word simply sits after the first one to add greater specificity. The reason to not treat
+apposition as compounding is because apposition occurs with proper nouns. For example, in
+the sentence:
+30(64) དེའི་ཚེ་ན་རྒྱལ་པོ་གསལ་རྒྱལ་གྱི་བཙུན་མོ་ཆེན་པོ་ཧབར་ལི་ཞེས་བྱ་བ་ལ་བུ་མོ་ཞིག་བཙས་ནས་
+time a daughter was born to Ḥbar-li, the main queen of king Prasenajit',
+'At that
+In (64), རྒྱལ་པོ་ 'king' and གསལ་རྒྱལ་ 'Prasenajit' are in apposition; to unite the two as a compound
+would lead to unintuitive, unwieldy, and therefore have unacceptable consequences.
+n.mass
+Mass noun. We separate mass nouns from count nouns on the basis of two instances in our
+corpus where otherwise two nouns not in apposition would follow each other: ནོར་བུ་སྦར་གང་ 'a
+handful of jewels' and ཆུ་སྙིན་པ་གང་ 'a handful of water'. Knowing that there exists this syntactic
+difference between count nouns and mass nouns, we tag all plausible mass nouns on the
+basis of their meaning (e.g. ཟངས་ 'copper'). A final list of mass nouns can only be securely put
+forward after the syntactic behavior of these words is better investigated. Words tagged with
+this tag include: གསེར་, ཆུ་, རིན་པོ་ཆེ་ , ནོར་, ཤ་, ཆུ, ས་, ཁྲག་, ཆང་, སྨན་, སེར་བ་, ནོར་བུ་, མར་, ངུར་སྨྲིག་, དངུལ་, ཡི་གེ་ , ནས་,
+ལྕགས་, སྤུ་, གངས་, ཙན་དན་, གསེར་གཡུ་, གོས་, དར་, ཤེལ་, གསེར་དངུལ་, པདྨ་རཱ་ག་, མར་ཁུ, ཟངས་, གོས་དར་, ཆུ་སྡོར་, ཐེར་ཕྲུག་, བཟའ་, བསུ་
+ཆང་, བུམ་ཆུ, བཻདཱུརྱ, མཐོ་ཁྱད་, རིན་ཆེན་, སྣམ་བུ་, ཁ་བ་, ཆུ་མེ་ཤིང་, ཉ་ཕྱིས་, ཐལ་བ་, ཐུད་, དབུས་ཕྲུག་, བུར་, མཐོན་མཐིང་, མར་གད་, མར་སར་,
+ཚོས་, ཟ་མ་བཅུད་, འཇིམ་པ་, འདག་, རིན་ཆེན་གསེར་, རྒྱགས་ཆུ་, རྡུལ་ཚོན་, རྣག་ཁྲག་, ལ་ཅ, ལ་ཆ, ལེ་བརྒན་, ཤ་ཁྲག་, སེང་ལྟེང་, སེང་ལྡེང་, སེར་, སྤེ ,
+and སྤེན་བད་.
+n.prop
+Proper nouns. This tag is used for proper nouns, i.e. personal and place names.
+(65)
+བཅོམ་ལྡན་འདས་ n.count
+ཤཱཀྱ་སེང་གེ་ n.prop
+ལ་ case.all
+ཕྱག་ n.count
+འཚལ་ v.fut.v.pres.tshal1
+ལོ cv.fin
+(66)
+ལག་ལྡན་ n.count
+བོད་ n.prop
+ཀྱི་ case.gen
+མཁས་མཆོག་ n.count
+རྣམས་ d.plural
+ལ་ case.all
+འདུད v.fut.v.pres
+། punc
+n.rel
+Relator nouns. A relator noun is a noun, normally one syllable, which has a genitive before
+it and a spatial case (allative, locative, terminative) after it, e.g. དེའི་ནང་ན་ 'inside of that', དེའ ་ ི དྲུང་དུ་
+'before him', དེའ ་ ི འོག་ཏུ་ 'under that', དེའ ་ ི ཚེ་ན་ 'at that time'; relator nouns are not quantified and do
+31not have adjectives, determiners or demonstratives. After identifying the class of relator
+nouns, these words are tagged as relator nouns even in syntactic contexts missing the
+genitive to left or the spatial case to the right.
+For example, in the sentence:
+(67) དེའི་ཚེ ་བློན་པོ་ཞིག་ཕྱི་རོལ་ནས་ནང་དུ་འོངས་པ་ལས། མི་བཙོན་དུ་བཟུང་བ་མཐོང་བ་དང། 'Then the
+minister went inside from outside and saw the man who had been taken to prison'
+In (67), the relator noun ཚེ་ is not followed by a spatial case and the relator noun ནང་ is not
+preceded by a genitive. In the phrase བར་འགའ་ 'sometimes' we do not consider བར་ a relator
+noun because it undergoes quantification, e.g.
+བར་འགའ་ནི་གཏི་མུག་གི་ཕྱིར་ལུས་བཏང་ཡང་ཆོས་ཀྱི་ཕྱིར་བསོད་ནམས་ཀྱི་ཞིང་དང་ལན་འགའ་ཡང་མ་
+ཕྲད་པའི་ལུས་འདི་ཅི་རུང། ' What is the use of this body which … sometimes has been used
+(68) …
+because of ignorance, but has not yet met an occasion (to serve) as a field of merit'.
+Words tagged with this tag include: ལྟ, ཕྱི , བཞིན་, ཚེ་ , སྐད་, བར་, དུས་, ནང་, རྗེས་, དྲུང་, ལྟ་བུ, འདྲ་, འོག་, སྟེང་, ལྟ་བུ་,
+སླད་, ངང་, ཕྱོགས་, མཐའ་, སྒོ་ , བཞིན , ས, སླ, མདུན, དབུས་, ཐོག་, ཁོང་, ཕྱི་བཞིན་, ཁ, ཆེད་, ཐོག་མ, སྐབས་, གོང་, རྟིང་, ཐད་, གན་, མཇུག་,
+འཕྲལ་, ལོགས་, ཁྲོད་, རྟེན་, སྨད་, ཁོངས་, གསེབ་, ཐ་མ, དུས, ཕུ་, དྲུད་, བསེབ་, མགོ , ཙ་, རིང་, རྩ, ལྟག་, སྐོར་, དཀྱིལ་, དབུང་, བྱང་, མཐའ་
+ལོགས་, ཚུན་, ཞོར་, འཁྲིས་, འོག་བ, རྒྱབ་, སྐེ་ , སྐེད་, སྙིང་ཁ, སྟེངས་, སྟོད་. Several questions of delimiting relator nouns
+require further consideration, in particular, the approach to ལྟ་ versus ལྟ་བུ་.
+n.son
+Noun 'son'. We use this tag for སྲས་ In this way we can automatically create NP-NPR for
+things like 'Ngawang's son'.
+
+### 3.9 Verbal Nouns
+
+Verbs are nominalised by adding a nominaliser like པ་, བ་, ཚུལ་, མཁན་, མི་ , or ས་ to the respective
+stems, in which case they get a verbal noun tag n.v.X. Note that in general, verbs derived
+from adjectives are (n.)v.invar unless they have -s, in which case they are (n.)v.past. Verbal
+nouns can appear in all different tenses/moods we distinguish for verbs in general. Just like
+with verbs, the tense/aspect/mood indication is based on morphology only (see section on
+verbs). We do not derive potential tense or mood labels from the syntactic context as this
+would entail adding linguistic analysis into the annotation, which we avoid (see general
+principles in the introduction above).
+n.v.fut
+Nominalization of a future verb stem. This tag is used for the nominalized versions of
+future verb stems, i.e. a future verb stem followed by པ་, བ་, ཚུལ་, མཁན་, མི་ , or ས་. Some examples
+are given in (68) and (69) below.
+(69)
+32རབ་ adv.intense
+ཏུ་ cv.term
+དབྱེ་བ་ n.v.fut
+ཉིད་ d.emph
+ཀྱིས་ case.agn
+དང་ case.ass
+། punc
+(70)
+བྱིས་པ་ n.count
+འདི་ d.dem
+རྣམས་ d.plural
+ཀྱིས་ case.agn
+ཁྱེད་ p.pers
+ཀྱི་ case.gen
+འབབ་ས་ n.v.fut
+དང་ case.ass
+n.v.fut.n.v.past
+Nominalization of a future or past stem of a verb.This tag is used for verb stems with the
+same form in the future and in the past, followed by nominalisers like པ་, བ་, ཚུལ་, མཁན་, མི་ , or ས་.
+(71)
+ཆེད་ n.rel
+དུ་ case.term
+བརྗོད་པ n.v.fut.n.v.past
+འི་ case.gen
+སྡེ་ n.count
+ནི cl.focus
+། punc
+n.v.fut.n.v.pres
+Nominalization of a future or present stem of a verb. This tag is used for verb stems with
+the same form in the future and in the present, followed by nominalisers like པ་, བ་, ཚུལ་, མཁན་, མ,
+or ས་.
+(72)
+སྡེ་སྣོད་ n.count
+གསུམ་ num.card
+དུ་ case.term
+འཇོག་པ n.v.fut.n.v.pres
+འི་ case.gen
+རྒྱུ་མཚན་ n.count
+དང་ case.ass
+། punc
+33n.v.ipv
+Nominalization of an imperative stem of a verb. The imperative stem of a verb is usually
+not supposed to be nominalized. However, in rare cases there are nominalised forms which
+appear to come from imperative stems, and we mark them accordingly.
+(73)
+ལྷ་ཁ་ n.count
+སྙིང་པོ n.count
+ས་ case.agn
+སྒྲུབས་པ་ n.v.ipv
+ཡིན v.fut.v.pres.yin
+། punc
+n.v.invar
+Nominalization of invariant verbs.This tag is used for invariant verb stems. Invariant verb
+stems are so called because they have the same form in the present, future and past. When
+they are nominalise, they are followed by nominalisers like པ་, བ་, ཚུལ་, མཁན་, མི་ , or ས་.
+(74)
+ལྟ་བསྒོམ་ n.count
+གྱི་ case.gen
+གོལ་ས་ n.v.invar
+ཆོད་པ་ n.v.invar
+ཡིན v.fut.v.pres.yin
+། punc
+n.v.past
+Nominalization of a past verb stem. This tag is used for the nominalized versions of past
+verb stems, i.e. a past verb stem followed by nominalisers like པ་, བ་, ཚུལ་, མཁན་, མི་ , or ས་.
+(75)
+མར་པ n.prop
+ས་ case.agn
+སྣ་ n.count
+ཁྲིད་ v.past
+ནས་ cv.ela
+རྨོས་པ n.v.past
+ས case.agn
+། punc
+n.v.past.n.v.pres
+Nominalization of a past or present stem of a verb. This tag is used for verb stems with
+the same form in the past and in the present, followed by nominalisers like པ་, བ་, ཚུལ་, མཁན་, མི་ ,
+or ས་.
+34(76)
+འདི་ d.dem
+འདྲ n.rel
+འི་ case.gen
+སྙིང་རླུང་ n.count
+ལས་ n.count
+ཀྱིས་ case.agn
+ཟིན་པ་ n.v.past.n.v.pres
+རྣམས d.plural
+། punc
+n.v.pres
+Nominalization of a present verb stem. This tag is used for the nominalized versions of
+present verb stems, i.e. a present verb stem followed by by nominalisers like པ་, བ་, ཚུལ་, མཁན་,
+མི་ , or ས་.
+(77)
+ཕ་མ་ n.count
+ཡང་ cl.focus
+སྒྲུབ་པ n.v.pres
+ས་ case.agn
+འདྲོངས v.past
+། punc
+
+### 3.10 Negation
+
+Negation in Tibetan can be marked by a negative marker or by a negative verb. For the two
+verbs མིན་ and མེད་ negation is inherent to their meaning, but these verbs are therefore added
+to the list of special verbs. In this section, we only discuss negative markers.
+neg
+Negation. The two negation prefixes མ་ ma and མི་ mi are classified together in their own
+category. The polar question prefix ཨེ་ e is also categorised under this tag because it
+occupies the same syntactic position as མ་ and མི་ .
+
+### 3.11 Numerals
+
+In numbers we distinguish cardinals ( གཅིག་ གཉིས་ གསུམ་ etc.) and ordinals ( དང་པོ་ གཉིས་པ་ གསུམ་པ་ etc.).
+numeral
+Actual numbers, e.g. "1967" or Tibetan ༥ are tagged as numeral.
+(78)
+1967
+ལ
+numeral
+n.count
+35ར་
+case.ter
+སྐྱེ་དམན་ n.count
+འདི་
+d.dem
+ཚོས་
+n.mass
+འཛིན་ཆས་ n.count
+མང་པོ་ adj
+ཉོས
+v.past
+། punc
+(Goldstein 1993, p.90)
+num.card
+Cardinal number. Cardinal numbers are tagged num.card. In higher numbers each
+component digit is tagged separately to provide more insight into the internal structure.
+When a numeral follows a noun we regard the two as separate words. In addition to obvious
+cases like མི་ ལྔ་ 'five men', we also treat དཀོན་མཆོག་གསུམ་ 'triratna' as two words. We treat ཕྲག་ as a
+cardinal number. There are occasions when the morphology of a word suggests that it might
+contain a numeral (e.g. མངོན་སུམ 'real', ཕུན་སུམ་ཚོགས་ 'marvellous'), but there is no reason to see
+such cases as synchronically analysable. Numbers that end with - པོ་ are also tagged
+num.card. Derivatives of numerals are treated according to the function they have in the
+sentence, thus གཅིག་པ་ 'sole' is an adjective, གཉི་ག་ 'both' is an indefinite pronoun, etc.
+num.ord
+Ordinal number. Ordinal numbers are tagged num.ord. Some adjectives can be
+distinguished from ordinal numbers only in context. For example, in the phrase རྡོ་རྗེ་རྩེ་ལྔ་པ་ 'a
+five-pronged vajra' the noun phrase syntax and the overall meaning of the passage dictates
+that ལྔ་པ་ is part of the word རྩེ་ལྔ་པ་ 'five-pronged' rather than an ordinal number 'fifth'.
+
+### 3.12 Pronouns
+
+Pronouns can be used to refer to real-life entities or those that are mentioned in the
+contexts. We distinguish between indefinite, interrogative, personal and reflexive pronouns.
+p.indef
+Indefinite pronoun. The words ལ་ལ་ 'some', སོ་སོ་ 'each', and གཉི་ག་ 'both' can function as
+independent arguments of a sentence ("I like both", "Some say that's good"), in which case
+they are not tagged as d.quant, but as indefinite pronouns with the tag 'p.indef'. Other words
+tagged with this tag include: ཁ་, སོ་སོ་ , ལ་ལ་, རེ་རེ་ , རེ་ .
+p.interrog
+Interrogative pronouns. This is the tag used for interrogative pronouns such as སུ་ 'who', ནམ་
+'when', and གང་ 'where'. Words tagged with this tag include: ཅི་ , གང་, ཇི་ , ཅི , སུ་, ནམ་, ཇི་སྲིད་, ག་, ག་རེ་ , ཇི་
+ཙམ་, ཅི་སྲིད་, and ཙུག་.
+36p.pers
+Personal pronouns. This tag is used for personal pronouns. Words tagged with this tag
+include: བདག་, ཁྱོད་, ང་, ཁྱེད་, བདག་ཅག་, ངེད་, ཁོ་ , ཁོང་, རང་རེ་ , ཁོ་བོ་ , རང་, མོ་ , ཁོ་མོ་ , ཁྱེད་ཅག་, འོ་སྐོལ་, འུ་ཅག་, འོ་ཅག་. The
+word རང་ is only tagged as p.pers when it functions as a full independent pronoun in its own
+right; in ང་རང་ and ཁྱེད་རང་ the word རང་ is tagged p.pers. The word བདག་ is tagged as p.pers when
+it is a humble equivalent of ང་. When this word means 'lord' or ' the self' (philosophy) it is
+tagged n.count and when it means 'himself' it is tagged as p.refl.
+p.refl
+Reflexive pronouns. This tag is used for reflexive pronouns. The only word tagged with this
+tag རང་ and བདག་. The word རང་ is tagged as p.refl when it functions as a reflexive, in a
+sentence (invented) such as ཁོས་ དེ་རིང་ རང་ གི་ ཟན་ ཟོས་ སོ་ ' Today, he ate his own food' or in long
+form personal pronouns such as ང་རང་ and ཁྱེད་རང་. When རང་ is full independent pronoun
+meaning 'I' or ' you' it is tagged p.pers. The word བདག་ is tagged p.refl only when it means
+'himself'.
+
+### 3.13 Punctuations
+
+punc
+Punctuation. While a tsheg, ‘dot’ (ཚེག་), is considered part of the preceding syllable, all other
+punctuation marks are tagged as punctuation. Such marks include །, ༑, །།, ༄༅༅།, and །།།།.
+Punctuation marks are broken apart to aid tokenization, e.g. we tag ༄/punc ༅/punc །/punc.
+skt
+Sanskrit or other metalinguistic elements. This tag was invented for the odd Sanskrit
+word that occurs in Tibetan (e.g. in mantras) not as a syntactic word in its own right, but as
+something metalinguistic at least vis à vis Tibetan.
+
+### 3.14 Verbs
+
+The tense/mood/aspect on the verb is based on the morphology only at this POS-tagging
+level. Verbs derived from adjectives are (n.)v.invar unless they have -s, in which case they
+are (n.)v.past. Even adjectives that only have present and past forms would be invar if they
+are used as verbs and the form is the same, e.g. དཀའ་ 'difficult, hard' (or དཀ་ before cv.fin) (no
+future or imperative form for this):
+(79)
+རབ་ adv.intense
+ཏུ་ cv.term
+འབྱུང་བ n.v.fut.n.v.pres
+ར་ case.term
+དཀ v.invar
+འོ cv.fin
+། punc
+37v.fut
+Future stem of a verb. This tag is used for future verb stems.
+(80)
+བླ་མ་ n.count
+སྔ adv.temp
+ས་ case.agn
+བསྲུང་ v.fut
+ལ་ cv.all
+v.fut.v.past
+Future or past stem of a verb. This tag is used for verb stems that are morphologically
+ambiguous between the past and future.
+(81)
+བསྡད་ v.fut.v.past
+ན་ cv.loc
+འགྲོ་ v.fut.v.pres.gro
+སྙིང་ n.count
+འདོད v.invar.dod
+v.fut.v.pres
+Future or present stem of a verb. This tag is used for verb stems that are morphologically
+ambiguous between the past and present.
+(82)
+ཕྱིན་ v.past.gro
+ན་ cv.loc
+སྡོད་ v.fut.v.pres
+སྙིང་ n.count
+འདོད v.invar.dod
+། punc
+v.ipv
+Imperative stem of a verb. This tag is used for imperative verb stems.
+(83)
+རྣལ་འབྱོར་པ་ n.count
+དེ་ d.dem
+ནང་ n.count
+དུ་ case.term
+བོས་ v.ipv
+ཤོག་ v.invar.shog
+གསུང་ v.invar
+། punc
+38v.invar
+Present, past, or future stem of a verb. This tag is used for verb stems that are
+morphologically ambiguous among present, past, and future.
+(84)
+སྤྲིན་ n.count
+ནག་པོ་ adj
+ལྡིང་ v.invar
+ཞིང་ cv.impf
+། punc
+If a verb has only one stem then we tag the verb as v.invar་:
+(85)
+ལྟས་མི་ n.count
+རྣམས་ d.plural
+ཀྱིས་ case.agn
+སླེབ་ v.fut.v.pres
+སྟེ་ cv.sem
+མ་ neg
+བརྡེག་ v.invar
+ཅིག cv.ipv
+། punc
+If a verb has only two stems and they are morphologically ambiguous, then we tag the
+verb as v.invar, e.g. Present/Past: དགེ་
+(86)
+བདག་ p.pers
+ཉིད་ d.emph
+གཅིག་པུ adj
+འི་ case.gen
+འཚོ་བ་ n.v.invar
+དགེ v.invar
+། punc
+v.past
+Past stem of a verb. This tag is used for past verb stems.
+(87)
+ཞིང་ n.count
+འོར་མ་གྲུ་གསུམ་ n.prop
+ཡང་ cl.focus
+ཨ་ཁུ n.count
+39འི་ case.gen
+ལག་ n.count
+ནས་ case.ela
+བླངས་ v.past
+ཏེ cv.sem
+v.past.v.pres
+Past or present stem of a verb. A verb stem that is both morphologically ambiguous
+between the past and present.
+(88)
+ནམ་མཁའ་ n.count
+ལ་ case.all
+འཇ n.count
+འི་ case.gen
+གུར་ n.count
+ཕུབ v.past.v.pres
+། punc
+v.pres
+Present stem of a verb. This tag is used for present verb stems.
+(89)
+ཕྱག་མཆོད་ n.count
+ལྷ་ n.count
+དང་ case.ass
+མཁའ་འགྲོ n.count
+ས་ case.agn
+འབུལ v.pres
+། punc
+3.14.1 Particular Cases
+Sometimes a stem can be linked to two different verbs: as བསྒོམ་ - which can be present of
+བསྒོམ་ but also future of a different verb སྒོམ་ - very similar meanings and both voluntary. We tag
+this case as v.fut.v.pres.
+3.14.2 Special verbs
+Special Verbs and Verbal Nouns
+Although this annotation scheme does not provide full lemmatisation, we do have special
+tags for a large number of 'special verbs'. These are any verbs that are of special interest
+from a linguistic point of view, e.g. because they can function as auxiliaries or light verbs,
+because they change/grammaticalise in later stages of the language, or because they have
+additional functions, e.g. negation or copula. To make the annotation process more feasible,
+40we focus only on those verbs that occur relatively frequently (this is checked in our corpora).
+In the list of 'special verbs' below, the numbers in parenthesis refer to that.
+In our special verb tags we don’t use ‘ for the a-chung འ for practical reasons: the apostrophe
+would be confusing as part of a POS tag.
+As already explained in section 1 we base our tense-aspect-mood distinctions on
+morphological form only, i.e. if there is a morphological element that indicates that a verb is
+past, future or present tense, we tag it as such. We do use an v.ipv tag if the imperative is
+morphologically distinct from the other forms:
+(90) “to do, to make”
+བྱེད་ → v.pres.byed
+བྱས་ → v.past.byed
+བྱ་ → v.fut.byed
+བྱོས་ → v.ipv.byed - alternative form བྱོ་
+However, often the imperative cannot be morphologically distinguished from other verb
+forms. In such cases, we consistently provide the tense/aspect/mood tag that is usually
+associated with that form, e.g. རནད་ 'to be proper,to be the right time' is consistently tagged as
+v.past.ran as that is what the morphology indicates and the POS tags are based on that. If
+that same form can also have an imperative function, we add "(ipv)" in parentheses behind
+the form, to remind annotators that in some contexts, this can have an imperative meaning.
+If this is the case the POS tag remains based on the original morphology, i.e. v.past.ran, but
+the imperative will be clear from the context (and this will be made extra clear by the
+syntactic annotation in the parsed version of the corpus), as shown in (90):
+(91) “to taste, to experience”
+མྱོང་ → v.pres.myong1
+མྱངས་ → v.past.myong1 (ipv)
+མྱང་ → v.fut.myong1
+Homophonous special verbs, i.e. those that have different argument structures, get separate
+tags, e.g. verb1 vs verb2. This facilitates future research on these forms. When doing such
+research, it is advisable to extract both verbs from the corpus and do a manual check as
+there may be missing arguments in the sentences. In the following list, the verbs highlighted
+in orange might need an additional manual check in terms of POS tagging, because their
+argument structure may be more complex. When forms are ambiguous, the list furthermore
+indicates when these forms are given the special verb tag and/or what the alternative tag is
+and when that would be used.
+གདའ་ (72) → v.invar.gda “to be, to be there”
+གདའ་བ་ → n.v.invar.gda “to be, to be there”
+བགྱིད་ (27) → v.pres.bgyid “to do, to make”
+བགྱིས་ → v.past.bgyid
+གྱི་ → v.ipv.bgyid - alternative form གྱིས་
+41བགྱི་ → v.fut.bgyid
+བགྱིད་པ་ → n.v.pres.bgyid “to do, to make”
+བགྱི་བ་ → n.v.fut.bgyid
+བགྱིས་པ་ → n.v.past.bgyid
+འགྱུར་ (191) → v.fut.v.pres.gyur (ipv) “to change, to transform”
+འགྱུརད་ → v.pres.gyur - alternative form སྒྱུར་ (ipv)
+གྱུར་ → v.past.gyur - alternative forms གྱུརད་ (ipv), བསྒྱུརད་
+བསྒྱུར་ → v.fut.v.past.gyur
+སྒྱུརད་ → v.ipv.gyur
+འགྱུར་ “ to become”, is resultative of སྒྱུར་ “ to change, to transform” - note that this is also one of
+the imperative forms of འཇགས་/v.invar (this is not a special verb)
+བསྒྱུར་བ་ → n.v.fut.n.v.past.gyur
+གྱུར་བ་ → n.v.past.gyur - alternative forms གྱུརད་བ་ (ipv), བསྒྱུརད་བ་
+འགྱུར་བ་ → n.v.fut.n.v.pres.gyur (ipv)
+འགྱུརད་བ་ → n.v.pres.gyur - alternative form སྒྱུར་བ་ (ipv)
+སྒྱུརད་ → n.v.ipv.gyur
+གྲགས་ (4) → v.invar.grags - “to be known as”
+ཆོག་ (2) → v.invar.chog - “to be suitable, to be able, to be permitted, to be allowed”
+ཆོག་པ་ → n.v.invar.chog - “to be suitable, to be able, to be permitted, to be allowed”
+ཐག་ (114) → v.invar.thag - if preceded by verb + མ་/neg: “as soon as” (otherwise it is a noun
+“distance”, “cloth”)
+ཐག་པ་ (5) → n.v.invar.thag - if preceded by verb + མ་/neg: “as soon as”
+ཐང་ (4) → v.invar.thang “to be able”
+ཐང་པ་ → n.v.invar.thang “to be able”
+བཏུབ་ → v.invar.thub1 “to be able, to make able” - argument structure [Abs. Obl.]
+ཐུབ་ → v.pres.thub1 - argument structure [Abs. Obl.]
+བཏུབས་ → v.past.thub1 - argument structure [Abs. Obl.]
+བཏུབ་པ་ → n.v.invar.thub1 “to be able, to make able” - argument structure [Abs. Obl.]
+ཐུབ་པ་ → n.v.pres.thub1 - argument structure [Abs. Obl.]
+བཏུབས་པ་ → n.v.past.thub1 - argument structure [Abs. Obl.]
+ཐུབ་ → v.invar.thub2 “to be able, capable of” - argument structure [Erg. Abs.] note that this
+form can be also the present of thub1: even if the ergative is left out, look at oblique
+preceding ཐུབ་, if there is an oblique immediately preceding the verb then is most likely thub1.
+Any possible locative case will be at the beginning of the sentence.
+ཐུབ་པ་ → n.v.invar.thub2 “to be able, capable of” - argument structure [Erg. Abs.]. See note
+above for disambiguating ཐུབ་.
+དཀའ་ → v.invar.dka “to be difficult”
+དཀའ་བ་ (4) → n.v.invar.dka “to be difficult”
+དགོས་ (148) → v.invar.dgos - “to need” note that དགོས་ may perhaps be related as the future
+stem of འཁོ་ (Zeisler 2004: 454 n. 138)
+དགོས་ (95) → v.invar.dgos “to need”
+དགོས་པ་ (79) → n.v.invar.dgos - alternative form དགོས་བ་ “ to need”
+དྲ་ → v.fut.dra1 - argument structure is [Erg. Abs.]
+དྲས་ → v.past.dra1 - argument structure is [Erg. Abs.]
+དྲོས་ → v.ipv.dra1 - argument structure is [Erg. Abs.]
+དྲ་བ་ → n.v.fut.dra1 - argument structure is [Erg. Abs.]
+42དྲས་པ་ → n.v.past.dra1 - argument structure is [Erg. Abs.]
+དྲོས་པ་ → n.v.ipv.dra1 - argument structure is [Erg. Abs.]
+འདྲ་ → v.pres.dra1 “to cut, to clip”- argument structure is [Erg. Abs.]
+འདྲ་བ་ → n.v.invar.dra1 “to cut, to clip” [Erg. Abs.]
+འདྲ་ (12) → v.invar.dra2 “to be similar” - argument structure [Abs. Ass.]
+འདྲ་བ་ → n.v.invar.dra2 - if preceded by a n.v.*; argument structure is [Abs. Ass.]
+དྲག་ (3) → v.invar.drag “to recover from illness”
+དྲགས་ → v.past.drag
+དྲག་པ་ → n.v.invar.drag “to recover from illness”
+དྲག་པ་ → n.v.past.drag
+ནུས་ (97) → v.invar.nus - when preceded by verb or verbal noun + མ་/neg: “to be able” - in
+other cases, it is the past (or ipv) of ནུ་ and treated as all other verbs
+ནུས་པ་ (53) → n.v.nus.invar - alternative form ནུས་བ་; - when preceded by verb or verbal noun +
+མ་/neg: “to be able” - in other cases, this form is the past (or ipv) of ནུ་ and treated as all other
+'non-special' verbs
+ཕོད་ → v.past.phod “to handle, to cope with” (ipv)
+ཕོད་པ་ → n.v.past.phod “to handle, to cope with” (ipv)
+འཕོད་ (14) → v.fut.v.pres.phod “to handle, to cope with”
+འཕོད་པ་ (11) → n.v.fut.n.v.pres.phod “to handle, to cope with”
+བཙལ་ → v.fut.v.past.tshal1 - the argument structure for tshal1 is [Erg. Abs.]
+བཙལད་ → v.past.tshal1 - the argument structure for tshal1 is [Erg. Abs.]
+འཚལ་/v.fut.v.pres.tshal1 ནོ /cv.fin: འཚལ་ (9) → v.fut.v.pres.tshal1 - “to greet, to prostrate for
+respect; (when prefixed by ཕྱག་ ) to pay respect” - because of the lack of sandhi in the final
+particle; the argument structure for tshal1 is [Erg. Abs.]
+འཚལ་/v.past.tshal1 དོ /cv.fin: འཚལ་ → v.past.tshal1 - because of the sandhi in the final particle
+starting with d-; the argument structure for tshal1 is [Erg. Abs.]
+འཚལ་བ་ → n.v.fut.n.v.pres.tshal1 “to greet, to prostrate for respect; (when prefixed by ཕྱག་ ) to
+pay respect” - the argument structure for tshal1 is [Erg. Abs.]
+བཙལ་བ་ → n.v.fut.n.v.past.tshal1 - the argument structure for tshal1 is [Erg. Abs.]
+བཙལད་བ་ → n.v.past.tshal1 - the argument structure for tshal1 is [Erg. Abs.]
+འཚལད་བ་ → n.v.past.tshal1 - the argument structure for tshal1 is [Erg. Abs.]
+འཚལ་ → v.invar.tshal2 “to beg, to desire, to ask” - the argument structure for tshal2 is [Abs.
+Obl.]
+འཚལ་བ་ → n.v.invar.tshal2 “to beg, to desire, to ask” - the argument structure for tshal2 is [Abs.
+Obl.]
+བཞག་ → v.past.bzhag “to assign, to establish, to designate”
+བཞག་པ་ → n.v.past.bzhag “to assign, to establish, to designate”
+བྱེད་ (105) → v.pres.byed “to do”
+བྱ་ → v.fut.byed
+བྱས་ → v.past.byed
+བྱོས་ → v.ipv.byed - alternative form བྱོ་
+བྱ་བ་ → n.v.fut.byed
+བྱས་པ་ → n.v.past.byed
+བྱོ་བ་ → n.v.ipv.byed - alternative form བྱོས་པ་
+འབྱུང་ (168) → v.fut.v.pres.byung (ipv) “to arise, to emerge, to appear”
+འབྱུང་བ་ → n.v.fut.n.v.pres.byung (ipv) “to arise, to emerge, to appear”
+43བྱུང་ → v.past.byung (ipv)
+བྱུང་བ་ → n.v.past.byung (ipv)
+མཆི་ (4) → v.fut.v.pres.mchi “to go”
+མཆིས་ → v.past.mchi → the argument structure for mchi is [Obl. Abs.]
+མཆི་བ་ → n.v.fut.n.v.pres.mchi “to go” → the argument structure for mchi is [Obl. Abs.]
+མཆིས་པ་ → n.v.past.mchi → the argument structure for mchi is [Obl. Abs.]
+མཆིས་ → v.invar.mchis “to be, to exist” → the argument structure for mchis [Abs. Obl.]
+མཆིས་པ་ → n.v.invar.mchis “to be, to exist” → the argument structure for mchis [Abs. Obl.]
+མཛད་ (32) → v.invar.mdzad “to do” (honorific)
+མཛད་པ་ → n.v.invar.mdzad
+མཛོད་པ་ → n.v.ipv.mdzad
+མིན་/v.fut.v.pres.min ནོ /cv.fin: མིན་ (12) → v.fut.v.pres.min - because of the lack of sandhi in the
+final particle
+མིནད་ → v.past.min
+མིན་/v.past.min དོ /cv.fin: མིན་ → v.past.min - because of the sandhi in the final particle starting
+with d-
+མིན་པ་ → n.v.fut.n.v.pres.min
+མིནད་པ་ → n.v.past.min
+མེད་ (19) → v.invar.med “to not be, exist” - note that some dictionaries will give two different
+argument structures, but since they contain the same cases just in a different order this is
+more likely to be due to focus in copular and existential clauses than that there are really two
+homophonous verbs med.
+མེད་པ་ → n.v.invar.med “to not be, exist, to be without”
+མོད་ (120) → v.invar.mod - when preceded by a verb: “indeed, although, but, though”
+མོད་པ་ → n.v.invar.mod - when preceded by a verb: “indeed, although, but, though”
+མྱོང་ (6) → v.pres.myong1 “to taste, to perceive” - this form is always transitive with [Erg. Abs.]
+arguments
+མྱང་ → v.fut.myong1
+མྱངས་ → v.past.myong1 (ipv)
+མྱོང་བ་ → n.v.pres.myong1 “to taste, to perceive” - this form is always transitive with [Erg. Abs.]
+arguments
+མྱང་བ་ → n.v.fut.myong1
+མྱངས་པ་ → n.v.past.myong1
+མྱོང་ → v.invar.myong2 “to sense, to feel” - v.invar.myong2 is always intransitive
+མྱོང་བ་ → n.v.invar.myong2 “to sense, to feel” - n.v.invar.myong2 is always intransitive
+འགྲོ་ (39) → v.fut.v.pres.gro “to go”
+སོང་ → v.past.gro - alternative forms ཕྱིན་, ཕྱིནད་
+འགྲོ་བ་ → n.v.fut.n.v.pres.gro “to go
+སོང་བ་ → n.v.past.gro - alternative forms ཕྱིན་པ་, ཕྱིནད་པ་
+འདུག་ (304) → v.invar.dug “is, there is, to exist”
+འདུག་པ་ → n.v.invar.dug “is, there is, to exist”
+འདོད་ (49) → v.invar.dod “to wish, to want”
+འདོད་པ་ → n.v.invar.dod “to wish, to want”
+འོང་ (17) → v.fut.v.pres.ong “to come”
+འོང་བ་ → n.v.invar.ong “to come”
+འོངས་ → v.ong.past (ipv)
+44འོངས་པ་ → n.v.past.ong
+ཤོག་/v.ipv.ong ཅིག་/cv.ipv: note that ཤོག་ is generally regarded as the imperative of འོང་ “ to come”,
+but historically the imperative of གཤེགས་ “ to go away, to leave”; when shog is not followed by
+cv.ipv it can be v.invar.shog or v.ipv.ong. This needs to be manually checked.
+ཡིན་/v.fut.v.pres.yin ནོ /cv.fin: ཡིན་ (209) → v.fut.v.pres.yin - because of the lack of sandhi in the
+final particle “to be”
+ཡིན་/v.past.yin དོ /cv.fin: ཡིན་ → v.past.yin - because of the sandhi in the final particle starting
+with d-
+ཡིནད་ → v.past.yin
+ཡིན་པ་ (41) → n.v.fut.n.v.pres.yin - alternative form ཡིན་བ་ “ to be”
+ཡིནད་པ་ → n.v.past.yin
+ཡིན་ལུགས་ → n.v.fut.n.v.pres.yinlugs “as it is”
+ཡོང་ (41) → v.invar.yong “will, to come”
+ཡོང་བ་ → n.v.invar.yong “will, to come”
+ཡོད་ (98) → v.invar.yod “to exist, to have”
+ཡོད་ → v.invar.yod “to have, to exist”
+ཡོད་པ་ → n.v.invar.yod “to have, to exist”
+རན་ (7) v.invar.ran “to be the time or right moment, to be proper”
+རན་/v.past.ran དོ /cv.fin: རན་ → v.past.ran - because of the sandhi in the final particle starting
+with d- ; - རན་/v.past is attested as a past form - this is why རན་ is v.invar.ran and not
+v.fut.v.pres.ran as done for verbs like yin/yind and min/mind.
+རནད་ → v.past.ran (ipv)
+རན་པ་ (2) → n.v.invar.ran “to be the time or right moment, to be proper”
+རནད་པ་ → n.v.past.ran (ipv)
+རེད་ → v.invar.red “to be”
+རེད་བ་ → n.v.invar.red “to be” - alternative form རེད་པ་
+རྒྱུ་ → v.invar.rgyu “to cause; [following a verb, indicates]: to be done”
+རྒྱུ་བ་ → n.v.invar.rgyu to cause; [following a verb, indicates]: to be done”
+ལགས་ (116) → v.invar.lags “to be” (honorific)
+ལགས་པ་ (18) → n.v.invar.lags “to be” (honorific)
+ཤེས་ (23) → v.invar.shes “to be able, to be possible, can”
+ཤེས་པ་ (35) → n.v.invar.shes “to be able, to be possible, can”
+ཤོག་ (56) → v.invar.shog “may it be” - particle indicating the optative
+ཤོག་/v.ipv.ong ཅིག་/cv.ipv: note that ཤོག་ is generally regarded as the imperative of འོང་ “ to come”,
+but historically the imperative of གཤེགས་ “ to go away, to leave”; when shog is not followed by
+cv.ipv it can be v.invar.shog or v.ipv.ong. This needs to be manually checked.
+ཤོག་པ་ → n.v.invar.shog “may it be”
+སྲིད་ (14) → v.invar.srid “to be possible, to be able”
