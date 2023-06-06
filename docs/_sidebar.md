@@ -1,12 +1,12 @@
 
--   [Introduction](catalog/introduction.md)
+-   [Introduction](catalog/en/introduction.md)
 
--   [POS Tagging of Verbs](catalog/pos_tagging_of_verbs.md) 
+-   [POS Tagging of Verbs](catalog/en/pos_tagging_of_verbs.md) 
 
--   [Word segmentation](catalog/word_segmentation.md) 
+-   [Word segmentation](catalog/en/word_segmentation.md) 
 
--   [POS tagging](catalog/pos_tagging.md) 
+-   [POS tagging](catalog/en/pos_tagging.md) 
 
--   [Sentence segmentation](catalog/sentence_segmentation.md)
+-   [Sentence segmentation](catalog/en/sentence_segmentation.md)
    
 
