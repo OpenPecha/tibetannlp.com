@@ -1,1 +1,1 @@
-# tibetannlp.com
+# Page about Tibetan NLP
