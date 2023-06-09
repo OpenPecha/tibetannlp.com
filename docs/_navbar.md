@@ -1,7 +1,6 @@
 <!-- _navbar.md -->
 
-* Translation
-  * [🇳🇱 བོད་ཡིག་](bo/)
-  * 🇺🇸 **English**
-  * [🇨🇳 简体中文](CN_zh/)
+* [བོད་སྐད།](bo/)
+* **English**
+* [中文](CN_zh/)
 
