@@ -10,32 +10,7 @@
 - [UD POS syntax csv file](https://docs.google.com/spreadsheets/d/140Nqi1DsDCfiwL8u3J3GJFeGdPmrJIn7_aLIHf2PoYY/edit#gid=971762751) - ཚིག་གཤིས་སྡོང་བོ་དཔེར་བརྗོད་དང་བཅས་པ།
 - [UD POS Tibetan](https://docs.google.com/document/d/1XokMNE5Is-CklRx-d-Hmh1SExrdiK_kV3fqeYJe_0FI/edit#heading=h.wn9xn65qn081) - UD POS Tibetan ཚིག་གཤིས་ཕྱོགས་བསྡུས་དཔེར་བརྗོད་དོགས་སློང་དང་བཅས་པ།
 - [མཛངས་བླུན་ segmentation feedback](https://docs.google.com/document/d/1ZhE2jngyJMsW5l2Zuc9SnmkU9ufNFJAGIoCw_XF_qeA/edit) - ཚིག་གྲུབ་དང་མིང་ཚིག་རེ་རེར་གཏུབ་ཟིན་པའི་དཔེ་མཚོན་དང་འབྲེལ་བའི་བསམ་འཆར་དང་བཅས་པ།
-- []() - 
-- []() - 
-- []() - 
-- []() - 
-- []() - 
-- []() - 
-- []() - 
-- []() - 
-- []() - 
-- []() - 
-- []() - 
-- []() - 
-- []() - 
-- []() - 
-- []() - 
-- []() - 
-- []() - 
-- []() - 
-- []() - 
-- []() - 
-- []() - 
-- []() - 
-- []() - 
-- []() - 
-- []() - 
-- []() - 
-- []() - 
-- []() - 
+- [ཉེར་མཁོའི་regex](https://docs.google.com/document/d/1ujCLWKq7exwJKrFDuUC22itPRTqn-xMezEiJTi9fezk/edit) - 
+- [UD POS - Syntactic Trees ཚིག་སྦྱོར་སྡོང་པོ།](https://docs.google.com/document/d/12DiiLQbz_60Nslu7uChL8Ru65N2wN1pfrWHY1UCWm4g/edit#heading=h.b5qwexq8nw9u) - UD POS - Syntactic Trees ཚིག་སྦྱོར་སྡོང་པོ། 
+- [ཚིག་གཤིས།](https://docs.google.com/spreadsheets/d/1JxeIFliSU3V8p36dJCOaLlQpudbgt3rR1n_Ex3id1qU/edit#gid=0) - ཚིག་གཤིས་སྐོར་ཞིག
 - []() - 
