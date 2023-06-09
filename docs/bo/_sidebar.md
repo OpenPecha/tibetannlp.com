@@ -1,8 +1,8 @@
--   [ངོ་སྤྲོད་](bo/introduction.md)  
+-   [ངོ་སྤྲོད།](bo/introduction.md)  
 
--   [ཡི་གེ་དང་པོ་](bo/) 
+-   [ཚིག་གྲུབ་བཅད་གཏུབ།](bo\sentence_segmentation.md) 
 
--   [ཡི་གེ་གཉིས་པ་](bo/) 
+-   [ཚིག་བཅད་གཏུབ།](bo/word_segmentation.md) 
 
 -   [ཡི་གེ་གསུམ་པ་](bo/) 
 
