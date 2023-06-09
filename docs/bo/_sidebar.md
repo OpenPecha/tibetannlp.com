@@ -1,4 +1,4 @@
--   [ངོ་སྤྲོད།](bo/introduction.md)  
+-   [ངོ་སྤྲོད།](bo/README.md)  
 
 -   [ཚིག་གྲུབ་བཅད་གཏུབ།](bo\sentence_segmentation.md) 
 
