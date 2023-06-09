@@ -26,7 +26,7 @@ that we can capture the origin of constructions that have changed over time.
 For example,
 complex postpositions, as shown here are split and all elements are tagged separately:
 
-དཔེར་བརྗོད་ལྟར་ན། འདིར་དཀའ་བའི་ཚིག་ཕྲད། གཤམ་དུ་བསྟན་པ་བཞིན། བརྗོད་པའི་ཆ་རྐྱེན་རིགས་སོ་སོར་ཕྱེ་ཡོད། 
+དཔེར་བརྗོད་ལྟར་ན། འདིར་དཀའ་བའི་ཚིག་ཕྲད། གཤམ་དུ་བསྟན་པ་བཞིན། བརྗོད་པའི་ཆ་རྐྱེན་རིགས་སོ་སོར་བཅད་གཏུབ་ཀྱིས་དབྱེ་བ་ཕྱེ་ཡོད། 
 
 
  སྒང་ལ་ “ on top” (see n.rel section)</br>
