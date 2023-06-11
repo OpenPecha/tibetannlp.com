@@ -8,112 +8,124 @@ level. Verbs derived from adjectives are (n.)v.invar unless they have -s, in whi
 are (n.)v.past. Even adjectives that only have present and past forms would be invar if they
 are used as verbs and the form is the same, e.g. དཀའ་ 'difficult, hard' (or དཀ་ before cv.fin) (no
 future or imperative form for this):
-(79)
-རབ་ adv.intense
-ཏུ་ cv.term
-འབྱུང་བ n.v.fut.n.v.pres
-ར་ case.term
-དཀ v.invar
-འོ cv.fin
+
+(79)</br>
+རབ་ adv.intense</br>
+ཏུ་ cv.term</br>
+འབྱུང་བ n.v.fut.n.v.pres</br>
+ར་ case.term</br>
+དཀ v.invar</br>
+འོ cv.fin</br>
 ། punc
-37v.fut
+
+v.fut</br>
 Future stem of a verb. This tag is used for future verb stems.
-(80)
-བླ་མ་ n.count
-སྔ adv.temp
-ས་ case.agn
-བསྲུང་ v.fut
+
+(80)</br>
+བླ་མ་ n.count</br>
+སྔ adv.temp</br>
+ས་ case.agn</br>
+བསྲུང་ v.fut</br>
 ལ་ cv.all
-v.fut.v.past
+
+v.fut.v.past</br>
 Future or past stem of a verb. This tag is used for verb stems that are morphologically
 ambiguous between the past and future.
-(81)
-བསྡད་ v.fut.v.past
-ན་ cv.loc
-འགྲོ་ v.fut.v.pres.gro
-སྙིང་ n.count
+(81)</br>
+བསྡད་ v.fut.v.past</br>
+ན་ cv.loc</br>
+འགྲོ་ v.fut.v.pres.gro</br>
+སྙིང་ n.count</br>
 འདོད v.invar.dod
-v.fut.v.pres
+
+v.fut.v.pres</br>
 Future or present stem of a verb. This tag is used for verb stems that are morphologically
 ambiguous between the past and present.
-(82)
-ཕྱིན་ v.past.gro
-ན་ cv.loc
-སྡོད་ v.fut.v.pres
-སྙིང་ n.count
-འདོད v.invar.dod
+(82)</br>
+ཕྱིན་ v.past.gro</br>
+ན་ cv.loc</br>
+སྡོད་ v.fut.v.pres</br>
+སྙིང་ n.count</br>
+འདོད v.invar.dod</br>
 ། punc
-v.ipv
+
+v.ipv</br>
 Imperative stem of a verb. This tag is used for imperative verb stems.
-(83)
-རྣལ་འབྱོར་པ་ n.count
-དེ་ d.dem
-ནང་ n.count
-དུ་ case.term
-བོས་ v.ipv
-ཤོག་ v.invar.shog
-གསུང་ v.invar
+(83)</br>
+རྣལ་འབྱོར་པ་ n.count</br>
+དེ་ d.dem</br>
+ནང་ n.count</br>
+དུ་ case.term</br>
+བོས་ v.ipv</br>
+ཤོག་ v.invar.shog</br>
+གསུང་ v.invar</br>
 ། punc
-38v.invar
+
+v.invar</br>
 Present, past, or future stem of a verb. This tag is used for verb stems that are
 morphologically ambiguous among present, past, and future.
-(84)
-སྤྲིན་ n.count
-ནག་པོ་ adj
-ལྡིང་ v.invar
-ཞིང་ cv.impf
+(84)</br>
+སྤྲིན་ n.count</br>
+ནག་པོ་ adj</br>
+ལྡིང་ v.invar</br>
+ཞིང་ cv.impf</br>
 ། punc
+
 If a verb has only one stem then we tag the verb as v.invar་:
-(85)
-ལྟས་མི་ n.count
-རྣམས་ d.plural
-ཀྱིས་ case.agn
-སླེབ་ v.fut.v.pres
-སྟེ་ cv.sem
-མ་ neg
-བརྡེག་ v.invar
-ཅིག cv.ipv
+(85)</br>
+ལྟས་མི་ n.count</br>
+རྣམས་ d.plural</br>
+ཀྱིས་ case.agn</br>
+སླེབ་ v.fut.v.pres</br>
+སྟེ་ cv.sem</br>
+མ་ neg</br>
+བརྡེག་ v.invar</br>
+ཅིག cv.ipv</br>
 ། punc
+
 If a verb has only two stems and they are morphologically ambiguous, then we tag the
 verb as v.invar, e.g. Present/Past: དགེ་
-(86)
-བདག་ p.pers
-ཉིད་ d.emph
-གཅིག་པུ adj
-འི་ case.gen
-འཚོ་བ་ n.v.invar
-དགེ v.invar
+(86)</br>
+བདག་ p.pers</br>
+ཉིད་ d.emph</br>
+གཅིག་པུ adj</br>
+འི་ case.gen</br>
+འཚོ་བ་ n.v.invar</br>
+དགེ v.invar</br>
 ། punc
-v.past
+
+v.past</br>
 Past stem of a verb. This tag is used for past verb stems.
-(87)
-ཞིང་ n.count
-འོར་མ་གྲུ་གསུམ་ n.prop
-ཡང་ cl.focus
-ཨ་ཁུ n.count
-39འི་ case.gen
-ལག་ n.count
-ནས་ case.ela
-བླངས་ v.past
+(87)</br>
+ཞིང་ n.count</br>
+འོར་མ་གྲུ་གསུམ་ n.prop</br>
+ཡང་ cl.focus</br>
+ཨ་ཁུ n.count</br>
+39འི་ case.gen</br>
+ལག་ n.count</br>
+ནས་ case.ela</br>
+བླངས་ v.past</br>
 ཏེ cv.sem
-v.past.v.pres
+
+v.past.v.pres</br>
 Past or present stem of a verb. A verb stem that is both morphologically ambiguous
 between the past and present.
-(88)
-ནམ་མཁའ་ n.count
-ལ་ case.all
-འཇ n.count
-འི་ case.gen
-གུར་ n.count
-ཕུབ v.past.v.pres
+(88)</br>
+ནམ་མཁའ་ n.count</br>
+ལ་ case.all</br>
+འཇ n.count</br>
+འི་ case.gen</br>
+གུར་ n.count</br>
+ཕུབ v.past.v.pres</br>
 ། punc
-v.pres
+
+v.pres</br>
 Present stem of a verb. This tag is used for present verb stems.
-(89)
-ཕྱག་མཆོད་ n.count
-ལྷ་ n.count
-དང་ case.ass
-མཁའ་འགྲོ n.count
-ས་ case.agn
-འབུལ v.pres
+(89)</br>                      
+ཕྱག་མཆོད་ n.count</br>
+ལྷ་ n.count</br>
+དང་ case.ass</br>
+མཁའ་འགྲོ n.count</br>
+ས་ case.agn</br>
+འབུལ v.pres</br>
 ། punc
