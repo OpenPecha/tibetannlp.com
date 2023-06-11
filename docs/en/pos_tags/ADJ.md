@@ -1,3 +1,9 @@
+[<-back](en/pos_tags/pos_tagging.md)
+
+
+
+### 3.1 Adjectives
+
 There is only one tag for adjectives: adj. We do not distinguish different types of adjectives or different grades of adjectives. Note that in general, verbs derived from adjectives are tagged (n.)v.invar unless they have -s, in which case they are (n.)v.past (see section on verbs).
 
 adj - adjectives</br>

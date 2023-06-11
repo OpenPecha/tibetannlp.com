@@ -1,3 +1,7 @@
+[<-back](en/pos_tags/pos_tagging.md)
+
+
+
 # ADV - Adverbs
 
 Adverbs modify verbs, adjectives or other adverbs. We distinguish between "directional", "intensifying" and "mimetic" adverbs.
