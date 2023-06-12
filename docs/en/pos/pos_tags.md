@@ -1,5 +1,6 @@
 # POS Tags
 *** 
+To distinguish additional lexical and grammatical properties of words, use the  [universal features](en/pos/universal_features.md)
 
 - [ADJ](en/pos/ADJ.md) - Adjective
 - [Adverbs](en/pos/ADV.md)
@@ -15,3 +16,5 @@
 - [Pronouns](en/pos/PRON.md)
 - [Punctuations](en/pos/PUNC.md)
 - [Verbs](en/pos/VERB.md)
+
+
