@@ -4,19 +4,19 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[POS Tag features](en/pos/postag_features.md)   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [POS Tag Verbs](en/pos/pos_tags_verbs/pos_tagging_of_verbs.md)
 
 
-- [ADJ](en/pos/ADJ.md) - Adjective
-- [Adverbs](en/pos/ADV.md)
-- [Case markers](en/pos/CASE.md)
-- [Clitics](en/pos/CL.md)
-- [Converbs](en/pos/CV.md)
-- [Determiners](en/pos/DET.md)
-- [Interjections](en/pos/INTJ.md)
-- [Nouns](en/pos/NOUN.md)
-- [Verbal Nouns](en/pos/V_NOUN.md)
-- [Negation](en/pos/NEG.md)
-- [Numerals](en/pos/NUM.md)
-- [Pronouns](en/pos/PRON.md)
-- [Punctuations](en/pos/PUNC.md)
-- [Verbs](en/pos/VERB.md)
+- [ADJ](en/pos/ADJ.md)    - Adjective
+- [ADV](en/pos/ADV.md)    - Adverbs
+- [CASE](en/pos/CASE.md)  - Case markers
+- [CL](en/pos/CL.md)      - Clitics
+- [CV](en/pos/CV.md)      - Converbs
+- [DET](en/pos/DET.md) - Determiners
+- [INTJ](en/pos/INTJ.md) - Interjections
+- [NOUN](en/pos/NOUN.md) - Nouns
+- [VNOUN](en/pos/V_NOUN.md) - Verbal Nouns
+- [NEG](en/pos/NEG.md) - Negation
+- [NUM](en/pos/NUM.md) - Numerals
+- [PRON](en/pos/PRON.md) - Pronouns
+- [PUNC](en/pos/PUNC.md) - Punctuations
+- [VERB](en/pos/VERB.md) - Verbs
 
 
