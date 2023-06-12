@@ -13,3 +13,4 @@
 - [ཉེར་མཁོའི་regex](https://docs.google.com/document/d/1ujCLWKq7exwJKrFDuUC22itPRTqn-xMezEiJTi9fezk/edit) - 
 - [UD POS - Syntactic Trees ཚིག་སྦྱོར་སྡོང་པོ།](https://docs.google.com/document/d/12DiiLQbz_60Nslu7uChL8Ru65N2wN1pfrWHY1UCWm4g/edit#heading=h.b5qwexq8nw9u) - UD POS - Syntactic Trees ཚིག་སྦྱོར་སྡོང་པོ། 
 - [ཚིག་གཤིས།](https://docs.google.com/spreadsheets/d/1JxeIFliSU3V8p36dJCOaLlQpudbgt3rR1n_Ex3id1qU/edit#gid=0) - ཚིག་གཤིས་སྐོར་ཞིག
+- [ཚིག་གཤིས། POS tags](https://docs.google.com/spreadsheets/d/1jrhgGuOl70LtabiVq8KebgRUsI1JEvjTluBIYRwUrhI/edit#gid=337307393) - ཚིག་གཤིས་དང་དེའི་སྐོར་གྱི་ཕྱོགས་བསྒྲིགས་ཤིག རྫོང་ཁ་ཡང་འདུས་ཡོད།
