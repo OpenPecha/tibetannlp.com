@@ -1,4 +1,4 @@
-[<-back](en/pos_tags/pos_tagging.md)
+[<-back](en/pos/pos_tagging.md)
 
 
 ### 3.14 Verbs
