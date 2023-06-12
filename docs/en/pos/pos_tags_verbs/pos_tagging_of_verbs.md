@@ -1,4 +1,10 @@
-### 1.1 POS Tagging of Verbs
+[<-back](en/pos/pos_tags.md)
+
+
+<!-- tabs:start -->
+
+#### **POS Tagging of Verbs**
+
 
 When it comes to verbs, we base our tense-aspect-mood distinctions on morphological form
 only, i.e. if there is a morphological element that indicates that a verb is past, future or
@@ -73,7 +79,7 @@ result in the following tags:
 དྲག་ → v.invar</br>
 དྲགས་ → v.past</br>
 
-### 1.2 Past tense with da-drag
+#### **Past tense with da-drag**
 
 In cases where the past tense is covertly marked through sandhi rules following da-drags,
 we still tag the verb as v.past. As a consequence, the verbs that don't have this covert past-
@@ -91,9 +97,7 @@ With frequent special verbs like yin this works in the same way:
 ཡིན་/v.past.yin དོ /cv.fin → v.past because of the sandhi in the final particle starting with d-
 ཡིན་/v.fut.v.pres.yin ནོ /cv.fin → v.fut.v.pres because of the lack of sandhi in the final particle
 
-
-### 1.3 Special Verbs 
-(see Special Verb List)
+#### **Special Verbs**
 
 Some verbs that exhibit special behaviour (e.g. they can behave like copulas or auxiliaries,
 etc.) get an individual verbal tag. This effectively means these verbs are lemmatised, making
@@ -113,8 +117,9 @@ d.ཡོད་པ་ → n.v.invar.yod “to exist, to have”</br>
 
 
 
+#### **Homophonous**
 
-### 1.4 Homophonous Special Verbs
+#### Homophonous Special Verbs
 
 There are cases where the forms of the verbs themselves are homophonous: if the verbs
 have two different argument structures, then we have two separate verbs and we use two
@@ -132,7 +137,9 @@ be two separate verbs. We also do not consider མེད་ to be have two separ
 the dictionaries).
 
 
-### 1.5 Resultatives & Causatives
+#### **R&C**
+
+#### Resultatives & Causatives
 
 If a special verb V1 is resultative/causative of a verb V2 we use the same special verb tag
 for both.
@@ -165,3 +172,9 @@ treated as separate forms like any other verb that has two different argument st
         Causative of: འགྲིབ་ "to grow dim, to get dark"</br>
         Present/Future/Past: འགྲིབ་ v.invar</br>
         Past: གྲིབ་ འགྲིབས་ v.past</br>
+
+<!-- tabs:end -->
+
+
+
+

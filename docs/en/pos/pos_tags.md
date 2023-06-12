@@ -1,6 +1,8 @@
 # POS Tags
 *** 
-To distinguish additional lexical and grammatical properties of words, use the  [POS Tag features](en/pos/postag_features.md)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[POS Tag features](en/pos/postag_features.md)   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [POS Tag Verbs](en/pos/pos_tags_verbs/pos_tagging_of_verbs.md)
+
 
 - [ADJ](en/pos/ADJ.md) - Adjective
 - [Adverbs](en/pos/ADV.md)
