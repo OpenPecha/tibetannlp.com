@@ -18,11 +18,14 @@
 - [output_report_BO](https://drive.google.com/drive/folders/1tBc9oHkWuUrQw1biP9QBvzlkSdjxasJD) -
 - [output_report_EN](https://drive.google.com/drive/folders/1tBc9oHkWuUrQw1biP9QBvzlkSdjxasJD) - 
 - [150 trees_bo](https://docs.google.com/spreadsheets/d/1xnONFcovQFqStDp0mXIL_j23teHZL7Wp/edit#gid=1380976119) - ཚིག་སྦྱོར་སྡོང་པོའི་ཚིག་གཤིས་འཇོག་ཚུལ་གྱི་དཔེ་མཚོན་སྐོར་ཞིག་ཡིན།
-- [150 trees_en](https://docs.google.com/spreadsheets/d/1cvVrNGHFH0RX2Sls8C5wGbXzvrI2Uvib/edit#gid=1841714395) - 
+- [150 trees_en](https://docs.google.com/spreadsheets/d/1cvVrNGHFH0RX2Sls8C5wGbXzvrI2Uvib/edit#gid=1841714395) - སྦྱོར་སྡོང་པོའི་དཔེ་མཚོན་སྐོར་ཞིག་ཡིན། TSV file.
+- [150 trees](https://drive.google.com/drive/folders/1k_Zu6_AD5clMkIGrbHiyBXKpwn_pM_oH) - སྦྱོར་སྡོང་པོའི་དཔེ་མཚོན་སྐོར་ཞིག་ཡིན། TSV file.
+- [150 trees_bo](https://drive.google.com/drive/folders/1M180gSVHRVQXaSOTuFQo9e9DbqiCSf2e) - སྦྱོར་སྡོང་པོའི་དཔེ་མཚོན་སྐོར་ཞིག་ཡིན། TSV file.
+- [150 trees_en](https://drive.google.com/drive/folders/1qbdZ1BQP6wSC26WBAWqZQ5A_3dnxF2oN) - སྦྱོར་སྡོང་པོའི་དཔེ་མཚོན་སྐོར་ཞིག་ཡིན། TSV file.
 ### དབྱིན་ཡིག་ནང་ཡོད་པའི་ཚིག་སྦྱོར་སྡོང་པོ་དང་དེ་སྒྲིག་ཚུལ་གྱི་སྒྲིག་གཞི།
 - [output trees and rules EN](https://drive.google.com/drive/folders/1SalNNZvRzpPgRyqLrQl5TP3C1Nl7dJNh) - ཚིག་སྦྱོར་སྡོང་བོ་དང་དཔེ་མཚོན་རེ་རེའི་དཔེ་མཚོན་སྒྲིག་ཚུལ་དང་བཅས་པ་ཡོད།
 
 ### བོད་ཡིག་ནང་ཡོད་པའི་ཚིག་སྦྱོར་སྡོང་པོ་དང་དེ་སྒྲིག་ཚུལ་གྱི་སྒྲིག་གཞི།
 - [output trees and rules BO](https://drive.google.com/drive/folders/1MEVkHyRGB8_sBYprNXny4e5igbBYvxF_) - ཚིག་སྦྱོར་སྡོང་བོ་དང་དཔེ་མཚོན་རེ་རེའི་དཔེ་མཚོན་སྒྲིག་ཚུལ་དང་བཅས་པ་ཡོད།
-- []() - 
+
 - []() - 
