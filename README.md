@@ -14,3 +14,15 @@
 - [UD POS - Syntactic Trees ཚིག་སྦྱོར་སྡོང་པོ།](https://docs.google.com/document/d/12DiiLQbz_60Nslu7uChL8Ru65N2wN1pfrWHY1UCWm4g/edit#heading=h.b5qwexq8nw9u) - UD POS - Syntactic Trees ཚིག་སྦྱོར་སྡོང་པོ། 
 - [ཚིག་གཤིས།](https://docs.google.com/spreadsheets/d/1JxeIFliSU3V8p36dJCOaLlQpudbgt3rR1n_Ex3id1qU/edit#gid=0) - ཚིག་གཤིས་སྐོར་ཞིག
 - [ཚིག་གཤིས། POS tags](https://docs.google.com/spreadsheets/d/1jrhgGuOl70LtabiVq8KebgRUsI1JEvjTluBIYRwUrhI/edit#gid=337307393) - ཚིག་གཤིས་དང་དེའི་སྐོར་གྱི་ཕྱོགས་བསྒྲིགས་ཤིག རྫོང་ཁ་ཡང་འདུས་ཡོད།
+- [Syntax Tree Guidelines](https://docs.google.com/document/d/1-u_pZfKzmm5480U8VKNRE_K_MwwyOQujXt5LE8UlIQc/edit) - ཚིག་སྦྱོར་སྡོང་པོའི་ལམ་སྟོན་སྟབས་བདེ་ཞིག་ཡིན།
+- [output_report_BO](https://drive.google.com/drive/folders/1tBc9oHkWuUrQw1biP9QBvzlkSdjxasJD) -
+- [output_report_EN](https://drive.google.com/drive/folders/1tBc9oHkWuUrQw1biP9QBvzlkSdjxasJD) - 
+- [150 trees_bo](https://docs.google.com/spreadsheets/d/1xnONFcovQFqStDp0mXIL_j23teHZL7Wp/edit#gid=1380976119) - ཚིག་སྦྱོར་སྡོང་པོའི་ཚིག་གཤིས་འཇོག་ཚུལ་གྱི་དཔེ་མཚོན་སྐོར་ཞིག་ཡིན།
+- [150 trees_en](https://docs.google.com/spreadsheets/d/1cvVrNGHFH0RX2Sls8C5wGbXzvrI2Uvib/edit#gid=1841714395) - 
+### དབྱིན་ཡིག་ནང་ཡོད་པའི་ཚིག་སྦྱོར་སྡོང་པོ་དང་དེ་སྒྲིག་ཚུལ་གྱི་སྒྲིག་གཞི།
+- [output trees and rules EN](https://drive.google.com/drive/folders/1SalNNZvRzpPgRyqLrQl5TP3C1Nl7dJNh) - ཚིག་སྦྱོར་སྡོང་བོ་དང་དཔེ་མཚོན་རེ་རེའི་དཔེ་མཚོན་སྒྲིག་ཚུལ་དང་བཅས་པ་ཡོད།
+
+### བོད་ཡིག་ནང་ཡོད་པའི་ཚིག་སྦྱོར་སྡོང་པོ་དང་དེ་སྒྲིག་ཚུལ་གྱི་སྒྲིག་གཞི།
+- [output trees and rules BO](https://drive.google.com/drive/folders/1MEVkHyRGB8_sBYprNXny4e5igbBYvxF_) - ཚིག་སྦྱོར་སྡོང་བོ་དང་དཔེ་མཚོན་རེ་རེའི་དཔེ་མཚོན་སྒྲིག་ཚུལ་དང་བཅས་པ་ཡོད།
+- []() - 
+- []() - 
