@@ -1,10 +1,7 @@
-
-
--   [UD guidelines](guideline.md)
-
--   [POS tagging](en/pos_tags/pos_tagging.md) 
-
--   [Word segmentation](en/word_segmentation.md) 
-
--   [Sentence segmentation](en/sentence_segmentation.md)
-   
+Word Segmentation
+- [Word segmentation](en/word_segmentation.md) 
+POS Tagging
+   - [Part of Speech](en/pos/pos_tags.md) 
+   - [Annotation guidelines](en/pos/annotation-guidelines.md)
+Sentence Segmentation
+- [Sentence segmentation](en/sentence_segmentation.md)
