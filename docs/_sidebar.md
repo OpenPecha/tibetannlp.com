@@ -8,7 +8,7 @@
    - ADJ
    - ADV
    
-- [Annotation guidelines](en/pos/annotation_guidelines.md)
+- [Annotation guidelines](en/pos/annotation_guideline.md)
 
 
 **Sentence Segmentation**

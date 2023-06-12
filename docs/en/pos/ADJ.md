@@ -1,4 +1,4 @@
-[<-back](en/pos/pos_tagging.md)
+[<-back](en/pos/pos_tags.md)
 
 
 ### 3.1 Adjectives
