@@ -1,6 +1,6 @@
 # POS Tags
 *** 
-To distinguish additional lexical and grammatical properties of words, use the  [universal features](en/pos/universal_features.md)
+To distinguish additional lexical and grammatical properties of words, use the  [POS Tag features](en/pos/postag_features.md)
 
 - [ADJ](en/pos/ADJ.md) - Adjective
 - [Adverbs](en/pos/ADV.md)

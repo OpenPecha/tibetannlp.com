@@ -1,12 +1,12 @@
-### Universal features
+### POS Tag features
 
 For core part-of-speech categories, see the [POS tags](en/pos/pos_tags.md)
 
 **Index:** 
 **A.**
-[adv.dir](),
-[adv.intense](),
-[adv.mim](),
+[adv.dir](en/pos/postag_features/adv.dir.md),
+[adv.intense](en/pos/postag_features/adv.intense.md),
+[adv.mim](en/pos/postag_features/adv.mim.md),
 [adv.proclausal](),
 [adv.temp](),
 **C.**
