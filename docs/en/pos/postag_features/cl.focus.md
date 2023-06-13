@@ -1,0 +1,6 @@
+[<-back](en/pos/postag_features.md)
+
+## cl.focus</br>
+Focus clitic. Focus clitics ཀྱང་ and ཡང་ are tagged cl.focus. Other words currently tagged with
+this tag include: འང་, ཅང་, and ཕྱིར་ཡང་. The word ལྟ་ when it is not tagged as a verb, or a relator
+noun, is also tagged as a focus clitic.
