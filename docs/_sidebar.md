@@ -5,8 +5,7 @@
 
 **POS Tagging**
 - [Part of Speech](en/pos/pos_tags.md)
-   - ADJ
-   - ADV
+
    
 - [Annotation guidelines](en/pos/annotation_guideline.md)
 
