@@ -32,11 +32,12 @@ For core part-of-speech categories, see the [POS tags](en/pos/pos_tags.md)
 [cv.rung](en/pos/postag_features/cv.rung.md),
 [cv.sem](en/pos/postag_features/cv.sem.md),
 **D.**
-[d.dem](),
-[d.emph](),
-[d.indef](),
-[d.plural](),
-[d.tsam](),
+[d.dem](en/pos/postag_features/d.dem.md),
+[d.emph](en/pos/postag_features/d.emph.md),
+[d.indef](en/pos/postag_features/d.indef.md),
+[d.plural](en/pos/postag_features/d.plural.md),
+[d.quant](en/pos/postag_features/d.quant.md),
+[d.tsam](en/pos/postag_features/d.tsam.md),
 **N.**
 [n.count](),
 [n.mass](),

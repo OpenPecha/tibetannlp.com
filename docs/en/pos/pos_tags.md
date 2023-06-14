@@ -1,7 +1,7 @@
 # POS Tags
 
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[POS Tag features](en/pos/postag_features.md)   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [POS Tag Verbs](en/pos/pos_tags_verbs/pos_tagging_of_verbs.md)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[POS Tag features](en/pos/postag_features/postag_features.md)   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [POS Tag Verbs](en/pos/pos_tags_verbs/pos_tagging_of_verbs.md)
 *** 
 
 - [ADJ](en/pos/ADJ.md)    - adjective
