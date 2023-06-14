@@ -1,4 +1,4 @@
-[<-back](en/pos/postag_features.md)
+[<-back](en/pos/postag_features/postag_features.md)
 
 ## case.loc</br>
 Locative case. The locative case is the clitic morpheme ན་ -na when suffixed to a noun,

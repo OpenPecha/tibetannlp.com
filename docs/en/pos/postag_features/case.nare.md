@@ -1,4 +1,4 @@
-[<-back](en/pos/postag_features.md)
+[<-back](en/pos/postag_features/postag_features.md)
 
 ## case.nare</br>
 The case -na-re. The case suffix ན་རེ་ -na-re introduces direct speech.

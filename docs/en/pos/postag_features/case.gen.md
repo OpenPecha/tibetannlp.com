@@ -1,4 +1,4 @@
-[<-back](en/pos/postag_features.md)
+[<-back](en/pos/postag_features/postag_features.md)
 
 ## case.gen</br>
 Genitive case. The genitive case is any of the allomorphs གི་ -gi, གྱི་ -gyi, ཀྱི་ -kyi, འི་ -'i, ཡི་ -yi,

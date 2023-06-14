@@ -1,4 +1,4 @@
-[<-back](en/pos/postag_features.md)
+[<-back](en/pos/postag_features/postag_features.md)
 
 ## d.quant</br>
 Quantifier. For quantifiers like ཀུན་ 'all', ཐམས་ཅད་ 'all', གཞན་ ‘ other’, ཀ་ ‘ all’, ག་ ‘ all’ - usually found

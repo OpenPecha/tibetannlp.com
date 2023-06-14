@@ -1,4 +1,4 @@
-[<-back](en/pos/postag_features.md)
+[<-back](en/pos/postag_features/postag_features.md)
 
 ## case.all</br>
 Allative case. The allative case is the clitic morpheme ལ་ -la when it occurs suffixed to

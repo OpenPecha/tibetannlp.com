@@ -1,4 +1,4 @@
-[<-back](en/pos/postag_features.md)
+[<-back](en/pos/postag_features/postag_features.md)
 
 ## case.agn</br>
 Agentive case. The agentive case is marked by any of the allomorphs གིས་ -gis, གྱིས་ -gyis, ཀྱིས་

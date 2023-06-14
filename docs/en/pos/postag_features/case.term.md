@@ -1,4 +1,4 @@
-[<-back](en/pos/postag_features.md)
+[<-back](en/pos/postag_features/postag_features.md)
 
 ## case.term
 Terminative case. The terminative case is any of the allomorphs རུ་ -ru, སུ་ -su, ཏུ་ -tu, དུ་ -du, ར་

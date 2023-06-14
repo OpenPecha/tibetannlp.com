@@ -1,4 +1,4 @@
-[<-back](en/pos/postag_features.md)
+[<-back](en/pos/postag_features/postag_features.md)
 
 ## case.comp</br>
 Comparative case. The comparative construction is expressed using the morpheme པས་/བས་.

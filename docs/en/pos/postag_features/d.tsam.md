@@ -1,4 +1,4 @@
-[<-back](en/pos/postag_features.md)
+[<-back](en/pos/postag_features/postag_features.md)
 
 ## d.tsam</br>
 Tsam and words with similar distribution. Words tagged with this tag include ཙམ་, སྙེད་, ཙམ་

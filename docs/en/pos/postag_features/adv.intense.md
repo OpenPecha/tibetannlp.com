@@ -1,4 +1,4 @@
-[<-back](en/pos/postag_features.md)
+[<-back](en/pos/postag_features/postag_features.md)
 
 ## adv.intense</br>
 Intensifying adverb. This tag was created for the adverbs རབ་(ཏུ་) 'very' and ཤིན་(ཏུ་) 'very',
