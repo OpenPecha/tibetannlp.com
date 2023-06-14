@@ -1,0 +1,12 @@
+[<-back](en/pos/postag_features/postag_features.md)
+
+
+## v.fut.v.past</br>
+Future or past stem of a verb. This tag is used for verb stems that are morphologically
+ambiguous between the past and future.
+(81)</br>
+བསྡད་ v.fut.v.past</br>
+ན་ cv.loc</br>
+འགྲོ་ v.fut.v.pres.gro</br>
+སྙིང་ n.count</br>
+འདོད v.invar.dod
