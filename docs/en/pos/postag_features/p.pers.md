@@ -2,6 +2,12 @@
 
 
 ## p.pers</br>
+
+|   TAG    | UD | CTAM | Tibetan |
+| -------- | ------- | ---- | ---- |
+| PRONP | PRON  | p.pers | ཚེ་སྐབས། ཚད་འཛིན།
+
+
 Personal pronouns. This tag is used for personal pronouns. Words tagged with this tag
 include: བདག་, ཁྱོད་, ང་, ཁྱེད་, བདག་ཅག་, ངེད་, ཁོ་ , ཁོང་, རང་རེ་ , ཁོ་བོ་ , རང་, མོ་ , ཁོ་མོ་ , ཁྱེད་ཅག་, འོ་སྐོལ་, འུ་ཅག་, འོ་ཅག་. The
 word རང་ is only tagged as p.pers when it functions as a full independent pronoun in its own

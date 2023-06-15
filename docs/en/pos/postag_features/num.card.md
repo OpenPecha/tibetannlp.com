@@ -2,6 +2,12 @@
 
 
 ## num.card</br>
+
+|   TAG    | UD | CTAM | Tibetan |
+| -------- | ------- | ---- | ---- |
+| NUMC | NUM  | num.card | ཚེ་སྐབས། ཚད་འཛིན།
+
+
 Cardinal number. Cardinal numbers are tagged num.card. In higher numbers each
 component digit is tagged separately to provide more insight into the internal structure.
 When a numeral follows a noun we regard the two as separate words. In addition to obvious

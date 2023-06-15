@@ -2,6 +2,12 @@
 
 
 ## n.mass</br>
+
+|   TAG    | UD | CTAM | Tibetan |
+| -------- | ------- | ---- | ---- |
+| NOUNM | NOUN  | n.mass | ཚེ་སྐབས། ཚད་འཛིན།
+
+
 Mass noun. We separate mass nouns from count nouns on the basis of two instances in our
 corpus where otherwise two nouns not in apposition would follow each other: ནོར་བུ་སྦར་གང་ 'a
 handful of jewels' and ཆུ་སྙིན་པ་གང་ 'a handful of water'. Knowing that there exists this syntactic

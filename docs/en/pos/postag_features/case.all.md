@@ -1,6 +1,11 @@
 [<-back](en/pos/postag_features/postag_features.md)
 
 ## case.all</br>
+
+|   TAG    | UD | CTAM | Tibetan |
+| -------- | ------- | ---- | ---- |
+| CASEAL | CASE   | case.all | ཚེ་སྐབས། ཚད་འཛིན།
+
 Allative case. The allative case is the clitic morpheme ལ་ -la when it occurs suffixed to
 nouns, noun phrases or verbal nouns.
 

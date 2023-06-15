@@ -2,6 +2,12 @@
 
 
 ## n.rel</br>
+
+|   TAG    | UD | CTAM | Tibetan |
+| -------- | ------- | ---- | ---- |
+| NOUNR | NOUN  | n.rel | ཚེ་སྐབས། ཚད་འཛིན།
+
+
 Relator nouns. A relator noun is a noun, normally one syllable, which has a genitive before
 it and a spatial case (allative, locative, terminative) after it, e.g. དེའི་ནང་ན་ 'inside of that', དེའ ་ ི དྲུང་དུ་
 'before him', དེའ ་ ི འོག་ཏུ་ 'under that', དེའ ་ ི ཚེ་ན་ 'at that time'; relator nouns are not quantified and do

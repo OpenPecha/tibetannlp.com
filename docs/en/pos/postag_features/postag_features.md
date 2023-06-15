@@ -7,8 +7,6 @@ For core part-of-speech categories, see the [POS tags](en/pos/pos_tags.md)
 [adv.dir](en/pos/postag_features/adv.dir.md),
 [adv.intense](en/pos/postag_features/adv.intense.md),
 [adv.mim](en/pos/postag_features/adv.mim.md),
-[adv.proclausal](en/pos/postag_features/adv.mim.md),
-[adv.temp](en/pos/postag_features/adv.mim.md),
 **C.**
 [case.abl](en/pos/postag_features/case.abl.md),
 [case.agn](en/pos/postag_features/case.agn.md),

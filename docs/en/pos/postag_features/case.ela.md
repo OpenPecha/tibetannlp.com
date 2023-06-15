@@ -1,6 +1,11 @@
 [<-back](en/pos/postag_features/postag_features.md)
 
 ## case.ela</br>
+
+|   TAG    | UD | CTAM | Tibetan |
+| -------- | ------- | ---- | ---- |
+| CASEEL | CASE   | case.ela | ཚེ་སྐབས། ཚད་འཛིན།
+
 Elative case. The elative case is the clitic morpheme ནས་ -nas when suffixed to nouns, noun
 phrases or verbal nouns. Usually it expresses a place/time from which an action begins or
 the cause for which an action occurs. It can form adverbs when suffixed to adjectives.

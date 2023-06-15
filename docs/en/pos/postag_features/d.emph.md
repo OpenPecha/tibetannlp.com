@@ -2,6 +2,13 @@
 
 ## d.emph</br>
 
+
+|   TAG    | UD | CTAM | Tibetan |
+| -------- | ------- | ---- | ---- |
+| DETE | DET  | d.emph | ཚེ་སྐབས། ཚད་འཛིན།
+
+
+
 Emphasising determiner. This category is for ཉིད་ in phrases such as རྒྱལ་པོ་ཉིད་ 'that very king'
 or ལུས་ཉིད་ 'this body'. This syntactic use of ཉིད་ must be distinguished from its use in Buddhist
 terminology - ཉིད་ inside of words, e.g. སྟོང་པ་ཉིད་ 'emptiness'. Apart from ཉིད་, ཁོ་ན་ 'the very, same'

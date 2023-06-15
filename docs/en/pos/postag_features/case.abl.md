@@ -2,6 +2,11 @@
 
 ## case.abl
 
+
+|   TAG    | UD | CTAM | Tibetan |
+| -------- | ------- | ---- | ---- |
+| CASEAB | CASE   | case.abl | ཚེ་སྐབས། ཚད་འཛིན།
+
 Ablative case. The ablative case is the morpheme ལས་ -las when it occurs suffixed to nouns,
 noun phrases or verbal nouns. After nouns, it usually means origin/source:
 (10)
@@ -28,3 +33,4 @@ If the verb is reduplicated it indicates continuation and it can be
 (12)ཁྱིམ་བདག་ཀྱང་གླང་འོངས་པར་མཐོང་བ་ལས་ མ་བཏགས་པས་ན། མིག་ཕྱུང་ཞིག
 “Because (པས་ན) the householder, upon (ལས་) seeing that the ox came in, did not bind [it],
 gouge out [his] eyes!” (MB D 272v1)
+

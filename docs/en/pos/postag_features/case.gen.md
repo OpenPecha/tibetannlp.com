@@ -1,6 +1,12 @@
 [<-back](en/pos/postag_features/postag_features.md)
 
 ## case.gen</br>
+
+|   TAG    | UD | CTAM | Tibetan |
+| -------- | ------- | ---- | ---- |
+| CASEG | CASE   | case.gen | ཚེ་སྐབས། ཚད་འཛིན།
+
+
 Genitive case. The genitive case is any of the allomorphs གི་ -gi, གྱི་ -gyi, ཀྱི་ -kyi, འི་ -'i, ཡི་ -yi,
 when suffixed to a noun, noun phrase or verbal noun. The main function of the genitive
 particle is to mark a noun or a noun phrase as possessive, modifying another noun.

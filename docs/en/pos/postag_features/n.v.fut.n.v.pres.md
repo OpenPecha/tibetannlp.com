@@ -2,6 +2,12 @@
 
 
 ## n.v.fut.n.v.pres</br>
+
+|   TAG    | UD | CTAM | Tibetan |
+| -------- | ------- | ---- | ---- |
+| NVFP | NOUN  | n.v.fut.n.v.pres | ཚེ་སྐབས། ཚད་འཛིན།
+
+
 Nominalization of a future or present stem of a verb. This tag is used for verb stems with
 the same form in the future and in the present, followed by nominalisers like པ་, བ་, ཚུལ་, མཁན་, མ,
 or ས་.

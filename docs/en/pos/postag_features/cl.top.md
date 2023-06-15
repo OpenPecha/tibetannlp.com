@@ -1,6 +1,12 @@
 [<-back](en/pos/postag_features/postag_features.md)
 
 ## cl.top</br>
+
+|   TAG    | UD | CTAM | Tibetan |
+| -------- | ------- | ---- | ---- |
+| CLT | clitic   | cl.top | ཚེ་སྐབས། ཚད་འཛིན།
+
+
 Topic clitic. This tag is introduced for the topic clitic -ni ནི་ . In this way we can automatically
 create a topic phrase NP-TOP with the automatic chunkparsing.
 

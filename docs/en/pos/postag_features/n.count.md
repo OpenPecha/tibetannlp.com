@@ -2,6 +2,12 @@
 
 
 ## n.count</br>
+
+|   TAG    | UD | CTAM | Tibetan |
+| -------- | ------- | ---- | ---- |
+| NOUNC | NOUN  | n.count | ཚེ་སྐབས། ཚད་འཛིན།
+
+
 Count noun. Lexical nouns head a noun phrase and can have nominal suffixes such as -མོ་ ,
 - པོ་ and -བུ་. We treat a - པ་ or - བ་ as part of the preceding word, regardless of the part-of-
 speech of the preceding word. Sanskrit terms, e.g. ཀུན་ཏུ་རྒྱུ་ 'parivrājaka', are treated as a noun

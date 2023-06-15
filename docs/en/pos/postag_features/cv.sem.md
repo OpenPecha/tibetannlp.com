@@ -1,6 +1,12 @@
 [<-back](en/pos/postag_features/postag_features.md)
 
 ## cv.sem</br>
+
+|   TAG    | UD | CTAM | Tibetan |
+| -------- | ------- | ---- | ---- |
+| CVS | Conv   | cv.sem | ཚེ་སྐབས། ཚད་འཛིན།
+
+
 Semi-final converb. The semi-final converb is the morpheme that has the three allomorphs
 ཏེ , སྟེ , and དེ . It usually follows a verb and it is also called gerundial particle - it can introduce a
 fact, person, event, described in more details in the following sentence (can be rendered as

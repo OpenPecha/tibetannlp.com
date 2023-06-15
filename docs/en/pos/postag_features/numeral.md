@@ -2,6 +2,12 @@
 
 
 ## numeral</br>
+
+|   TAG    | UD | CTAM | Tibetan |
+| -------- | ------- | ---- | ---- |
+| NUM | NUM  | numeral| ཚེ་སྐབས། ཚད་འཛིན།
+
+
 Actual numbers, e.g. "1967" or Tibetan ༥ are tagged as numeral.
 
 (78)</br>

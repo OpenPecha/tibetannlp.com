@@ -1,6 +1,12 @@
 [<-back](en/pos/postag_features/postag_features.md)
 
 ## n.prop</br>
+
+|   TAG    | UD | CTAM | Tibetan |
+| -------- | ------- | ---- | ---- |
+| NOUNP | NOUN  | n.prop | ཚེ་སྐབས། ཚད་འཛིན།
+
+
 Proper nouns. This tag is used for proper nouns, i.e. personal and place names.
 
 (65)</br>

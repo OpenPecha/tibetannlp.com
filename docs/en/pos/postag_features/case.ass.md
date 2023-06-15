@@ -1,6 +1,11 @@
 [<-back](en/pos/postag_features/postag_features.md)
 
 ## case.ass</br>
+
+|   TAG    | UD | CTAM | Tibetan |
+| -------- | ------- | ---- | ---- |
+| CASEAS | CASE   | case.ass | ཚེ་སྐབས། ཚད་འཛིན།
+
 Associative case. The associative case is the clitic morpheme དང་ -dang when suffixed to
 nouns, noun phrases or verbal nouns. It has a coordination function - as the conjunction
 “and”- between two or more nouns or noun phrases. It can mark oblique arguments of

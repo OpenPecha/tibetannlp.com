@@ -2,6 +2,12 @@
 
 
 ## v.ipv</br>
+
+|   TAG    | UD | CTAM | Tibetan |
+| -------- | ------- | ---- | ---- |
+| VERBI | VERB  | v.ipv | ཚེ་སྐབས། ཚད་འཛིན།
+
+
 Imperative stem of a verb. This tag is used for imperative verb stems.
 (83)</br>
 རྣལ་འབྱོར་པ་ n.count</br>

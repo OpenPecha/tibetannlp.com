@@ -1,6 +1,12 @@
 [<-back](en/pos/postag_features/postag_features.md)
 
 ## d.quant</br>
+
+|   TAG    | UD | CTAM | Tibetan |
+| -------- | ------- | ---- | ---- |
+| DETQ | DET  | d.quant | ཚེ་སྐབས། ཚད་འཛིན།
+
+
 Quantifier. For quantifiers like ཀུན་ 'all', ཐམས་ཅད་ 'all', གཞན་ ‘ other’, ཀ་ ‘ all’, ག་ ‘ all’ - usually found
 after numbers, རེ་ and རེ་རེ་ ‘ each’, ཤ་སྟག་ ‘ only, all’, ཁ་ ‘ some’, ཡ་རེ་ ‘ each one of two’, སྣ་རེ་ ‘ a few’,
 གཞིན་ ‘ ?’, མང་པོ་ ‘ many’, སྤྱི་ ‘ all’, ཅུང་ཟད་ ‘ a few’, དུ་མ་ ‘ many’, ཤས་ ‘ some, a few’, མཐའ་དག་ ‘ all’, ཆུང་ཟད་ ‘ a

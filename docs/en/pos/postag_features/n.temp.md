@@ -1,6 +1,12 @@
 [<-back](en/pos/postag_features/postag_features.md)
 
 ## n.temp</br>
+
+|   TAG    | UD | CTAM | Tibetan |
+| -------- | ------- | ---- | ---- |
+| NOUNT | NOUN  | n.temp | ཚེ་སྐབས། ཚད་འཛིན།
+
+
 Temporal noun. Temporal nouns are those that occur in syntactic positions or have
 morphological structure that suggests they are nouns. They refer to time, and are generally
 not followed by case markers. Examples of temporal nouns are: ད་, སྔོན་, སྔ་, ད་དུང་, ནང་པ, ཕྱི་ཉིན་, ཁ་

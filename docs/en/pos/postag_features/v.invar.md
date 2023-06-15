@@ -2,6 +2,12 @@
 
 
 ## v.invar</br>
+
+|   TAG    | UD | CTAM | Tibetan |
+| -------- | ------- | ---- | ---- |
+| VERBI | VERB  | v.invar | ཚེ་སྐབས། ཚད་འཛིན།
+
+
 Present, past, or future stem of a verb. This tag is used for verb stems that are
 morphologically ambiguous among present, past, and future.
 (84)</br>

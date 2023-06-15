@@ -2,6 +2,12 @@
 
 
 ## v.past</br>
+
+|   TAG    | UD | CTAM | Tibetan |
+| -------- | ------- | ---- | ---- |
+| VERBP | VERB  | v.past | ཚེ་སྐབས། ཚད་འཛིན།
+
+
 Past stem of a verb. This tag is used for past verb stems.
 (87)</br>
 ཞིང་ n.count</br>

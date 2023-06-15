@@ -1,6 +1,12 @@
 [<-back](en/pos/postag_features/postag_features.md)
 
 ## cv.ques</br>
+
+|   TAG    | UD | CTAM | Tibetan |
+| -------- | ------- | ---- | ---- |
+| CVQ | Conv   | cv.ques | ཚེ་སྐབས། ཚད་འཛིན།
+
+
 Question converb. The question converb is any allomorph of the marker འམ, which is an
 explicit marker of a polar questions or alternate questions. Words tagged with this tag
 include: འམ, སམ, ནམ, དམ, གམ, ངམ, ཏམ, རམ, ལམ, བམ, མམ, ངེ་ , and མཾ་ .

@@ -1,6 +1,11 @@
 [<-back](en/pos/postag_features/postag_features.md)
 
 ## case.loc</br>
+
+|   TAG    | UD | CTAM | Tibetan |
+| -------- | ------- | ---- | ---- |
+| CASEL | CASE   | case.loc | ཚེ་སྐབས། ཚད་འཛིན།
+
 Locative case. The locative case is the clitic morpheme ན་ -na when suffixed to a noun,
 noun phrase or to a verbal noun. It can have temporal or spatial meaning.
 

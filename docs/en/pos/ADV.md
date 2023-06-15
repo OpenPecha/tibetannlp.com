@@ -2,11 +2,11 @@
 
 
 
-# ADV - Adverbs
+## ADV - Adverbs
 
 Adverbs modify verbs, adjectives or other adverbs. We distinguish between "directional", "intensifying" and "mimetic" adverbs.
 
-## ADVD adv.dir
+## adv.dir
 <!-- below should be a table -->
 <!-- - TAG: ADVD
 - UD: ADV (AdvType=Dir)

@@ -1,6 +1,12 @@
 [<-back](en/pos/postag_features/postag_features.md)
 
 ## case.term
+
+|   TAG    | UD | CTAM | Tibetan |
+| -------- | ------- | ---- | ---- |
+| CASET | CASE   | case.term | ཚེ་སྐབས། ཚད་འཛིན།
+
+
 Terminative case. The terminative case is any of the allomorphs རུ་ -ru, སུ་ -su, ཏུ་ -tu, དུ་ -du, ར་
 -r, when suffixed to a noun, noun phrase or verbal noun. It can have a locative meaning. In
 addition, it can form adverbs.
