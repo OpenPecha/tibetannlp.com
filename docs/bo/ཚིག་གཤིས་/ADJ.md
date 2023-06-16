@@ -4,6 +4,16 @@
 ཀ༽ དཔེར་བརྗོད། 
 ༡) ཆུ་བོ་ཆེན་པོ་བཞི་རྒྱ་མཚོར་བབས། (བུ་སྟོན་ལས་བཤུས།) 
 
+
+
+</br>
+
+<img src = 'https://github.com/OpenPecha/tibetannlp.com/blob/main/docs/bo/images/ADJ_01.png?raw=true'>
+
+</br>
+
+༢) ནཱ་རོ་པའི་བཀའ་ལུང་ལྟར་སྐུ་མཚམས་དམ་པོ་ལ་བཞུགས། (མི་ལ་རས་པའི་རྣམ་ཐར་ལས་བཤུས།)
+
 | ཆུ་བོ་     |  ཆེན་པོ་   |  བཞི་    |  རྒྱ་མཚོ    |   ར་    |  བབས  |
 | ------ | -----  | ----  |  ----   |   ---- | ---- |
 | ཆུ་བོ་     |        | བཞི་    | རྒྱ་མཚོ་     |    ར་    | བབས
@@ -15,5 +25,3 @@
 | [ཚིག་གྲུབ།   |        |       |         | adv.dir | ]
 
 </br>
-
-<img src = 'https://github.com/OpenPecha/tibetannlp.com/blob/main/docs/bo/images/ADJ_01.png?raw=true'>
