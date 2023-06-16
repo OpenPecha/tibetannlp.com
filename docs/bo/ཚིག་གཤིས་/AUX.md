@@ -1,0 +1,11 @@
+[<-back](bo/ཚིག་གཤིས་/UD_POS.md)
+
+
+### AUX: auxiliary བྱ་བའི་ཚིག་གྲོགས། (བྱ་གྲོགས།)
+
+(ཡོང་ཁུངས། བུ་སྟོན།) ཁྱོད་ཀྱིས་ལུས་ཐུལ་བའི་རྒྱུ་མཚན་ཅི་ཡོད།
+
+<img src = 'https://github.com/OpenPecha/tibetannlp.com/blob/main/docs/bo/table_images/AUX_01.png?raw=true'>
+
+<img src = 'https://github.com/OpenPecha/tibetannlp.com/blob/main/docs/bo/tree_images/AUX_01.png?raw=true'>
+

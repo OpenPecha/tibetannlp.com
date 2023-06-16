@@ -1,3 +1,6 @@
+[<-back](bo/ཚིག་གཤིས་/UD_POS.md)
+
+
 ### ADJ: adjective རྒྱན་ཚིག ཁྱད་ཚིག
 
 
@@ -15,14 +18,19 @@
 
 ༢) ནཱ་རོ་པའི་བཀའ་ལུང་ལྟར་སྐུ་མཚམས་དམ་པོ་ལ་བཞུགས། (མི་ལ་རས་པའི་རྣམ་ཐར་ལས་བཤུས།)
 
-| ཆུ་བོ་     |  ཆེན་པོ་   |  བཞི་    |  རྒྱ་མཚོ    |   ར་    |  བབས  |
-| ------ | -----  | ----  |  ----   |   ---- | ---- |
-| ཆུ་བོ་     |        | བཞི་    | རྒྱ་མཚོ་     |    ར་    | བབས
-| ཆུ་བོ་     |        | བཞི་    | རྒྱ་མཚོ་     |    ར་    | བབས
-| ཆུ་བོ་     |        |       | རྒྱ་མཚོ་     |   ར་     | བབས
-| ཆུ་བོ་     |        |       | ཚེ་སྐབས། ཚད་འཛིན། |       | བབས
-| མིང་ཚིག    | རྒྱན་ཚིག    | གྲངས་ཚིག  | མིང་ཚིག     | སྦྱོར་ཚིག    | བྱ་ཚིག
-| [མིང་ཚིག་གི་ཚོགས། |       |  ]    | [སྦྱོར་ཚིག་གི་ཚོགས། | ]     | [བྱ་ཚིག་གི་ཚོགས།]
-| [ཚིག་གྲུབ།   |        |       |         | adv.dir | ]
+<img src = 'https://github.com/OpenPecha/tibetannlp.com/blob/main/docs/bo/table_images/ADJ02.png?raw=true'> 
 
 </br>
+</br>
+
+<img src = 'https://github.com/OpenPecha/tibetannlp.com/blob/main/docs/bo/tree_images/ADJ_02.png?raw=true'> 
+
+གཟུགས་མཛེས་མདོག་དཀར་པའི་མི་རིང་བ་དེས་སྐད་རིགས་བཞི་ཧ་ཅང་བདེ་ལེགས་ངང་བཤད་ཐུབ། (ཡོང་ཁུངས་རང་།) 
+
+<img src = 'https://github.com/OpenPecha/tibetannlp.com/blob/main/docs/bo/table_images/ADJ03.png?raw=true'> 
+
+</br>
+</br>
+
+<img src = 'https://github.com/OpenPecha/tibetannlp.com/blob/main/docs/bo/tree_images/ADJ_03.png?raw=true'> 
+
