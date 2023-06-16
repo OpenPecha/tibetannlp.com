@@ -1,14 +1,15 @@
 ### ADJ: adjective རྒྱན་ཚིག ཁྱད་ཚིག
 
 
-ཀ༽ དཔེར་བརྗོད། 
+ཀ༽ དཔེར་བརྗོད། </br>
 ༡) ཆུ་བོ་ཆེན་པོ་བཞི་རྒྱ་མཚོར་བབས། (བུ་སྟོན་ལས་བཤུས།) 
 
-
+<img src = 'https://github.com/OpenPecha/tibetannlp.com/blob/main/docs/bo/table_images/ADJ01.png?raw=true'> 
 
 </br>
+</br>
 
-<img src = 'https://github.com/OpenPecha/tibetannlp.com/blob/main/docs/bo/images/ADJ_01.png?raw=true'>
+<img src = 'https://github.com/OpenPecha/tibetannlp.com/blob/main/docs/bo/tree_images/ADJ_01.png?raw=true' class = 'center'>
 
 </br>
 
