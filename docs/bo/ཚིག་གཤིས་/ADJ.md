@@ -7,12 +7,11 @@
 ཀ༽ དཔེར་བརྗོད། </br>
 ༡) ཆུ་བོ་ཆེན་པོ་བཞི་རྒྱ་མཚོར་བབས། (བུ་སྟོན་ལས་བཤུས།) 
 
-<img src = 'https://github.com/OpenPecha/tibetannlp.com/blob/main/docs/bo/table_images/ADJ01.png?raw=true'> 
+![adj_01](../../bo/table_images/ADJ01.png)
 
-</br>
-</br>
 
-<img src = 'https://github.com/OpenPecha/tibetannlp.com/blob/main/docs/bo/tree_images/ADJ_01.png?raw=true' class = 'center'>
+![adj_01_tree](../../bo/tree_images/ADJ_01.png)
+
 
 </br>
 
