@@ -4,21 +4,15 @@
 ### INTJ: interjection འབོད་ཚིག
 ཡོང་ཁུངས། (མར་པ་ལོ་ཙཱ།) རྒྱལ་པོ་འཁོར་དང་བཅས་པས་ཐལ་མོ་སྦྱར་ནས་ཞུས།
 
-<img src = 'https://github.com/OpenPecha/tibetannlp.com/blob/main/docs/bo/table_images/INTJ_01.png?raw=true'>
-
-<img src = 'https://github.com/OpenPecha/tibetannlp.com/blob/main/docs/bo/tree_images/INTJ_01.png?raw=true'>
-
+![intj_01_table](../../bo/table_images/INTJ_01.png)
+![intj_01_tree](../../bo/tree_images/INTJ_01.png)
 
 ཨེ་མ་ཧོ། ཉོན་ཅིག་དུར་ཁྲོད་བདག་མོ་ཁྱོད། །(རྒྱུད་འབུམ།)
 
-<img src = 'https://github.com/OpenPecha/tibetannlp.com/blob/main/docs/bo/table_images/INTJ_02.png?raw=true'>
-
-<img src = 'https://github.com/OpenPecha/tibetannlp.com/blob/main/docs/bo/tree_images/INTJ_02.png?raw=true'>
-
+![intj_02_table](../../bo/table_images/INTJ_02.png)
+![intj_02_tree](../../bo/tree_images/INTJ_02.png)
 
 ཀྱེ་ཀྱེ་རྒྱལ་བ་ཐམས་ཅད་གཟིགས། །(རྒྱུད་འབུམ།)
 
-<img src = 'https://github.com/OpenPecha/tibetannlp.com/blob/main/docs/bo/table_images/INTJ_03.png?raw=true'>
-
-<img src = 'https://github.com/OpenPecha/tibetannlp.com/blob/main/docs/bo/tree_images/INTJ_03.png?raw=true'>
-
+![intj_03_table](../../bo/table_images/INTJ_03.png)
+![intj_03_table](../../bo/tree_images/INTJ_03.png)

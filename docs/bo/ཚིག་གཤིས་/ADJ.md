@@ -17,19 +17,14 @@
 
 ༢) ནཱ་རོ་པའི་བཀའ་ལུང་ལྟར་སྐུ་མཚམས་དམ་པོ་ལ་བཞུགས། (མི་ལ་རས་པའི་རྣམ་ཐར་ལས་བཤུས།)
 
-<img src = 'https://github.com/OpenPecha/tibetannlp.com/blob/main/docs/bo/table_images/ADJ02.png?raw=true'> 
 
-</br>
-</br>
+![adj_02_table](../../bo/table_images/ADJ02.png)
 
-<img src = 'https://github.com/OpenPecha/tibetannlp.com/blob/main/docs/bo/tree_images/ADJ_02.png?raw=true'> 
+![adj_02_tree](../../bo/tree_images/ADJ_02.png)
+
 
 གཟུགས་མཛེས་མདོག་དཀར་པའི་མི་རིང་བ་དེས་སྐད་རིགས་བཞི་ཧ་ཅང་བདེ་ལེགས་ངང་བཤད་ཐུབ། (ཡོང་ཁུངས་རང་།) 
 
-<img src = 'https://github.com/OpenPecha/tibetannlp.com/blob/main/docs/bo/table_images/ADJ03.png?raw=true'> 
+![adj_03_table](../../bo/table_images/ADJ03.png)
 
-</br>
-</br>
-
-<img src = 'https://github.com/OpenPecha/tibetannlp.com/blob/main/docs/bo/tree_images/ADJ_03.png?raw=true'> 
-
+![adj_03_table](../../bo/tree_images/ADJ_03.png) 

@@ -6,6 +6,5 @@
 དཔེར་བརྗོད། མི་ལ་རས་པ། 
 ༡) མནལ་སད་པ་དང་དགའ་སྤྲོ་དཔག་ཏུ་མེད་པ་ཞིག་འཐོབ་པར་གྱུར་ཏོ། །
 
-<img src = 'https://github.com/OpenPecha/tibetannlp.com/blob/main/docs/bo/table_images/CCONJ_01.png?raw=true'>
-
-<img src = 'https://github.com/OpenPecha/tibetannlp.com/blob/main/docs/bo/table_images/CCONJ_02.png?raw=true'>
+![cconj_01_table](../../bo/table_images/CCONJ_01.png)
+![cconj_02_table](../../bo/table_images/CCONJ_02.png)

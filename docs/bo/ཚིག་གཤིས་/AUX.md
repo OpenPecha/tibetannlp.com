@@ -5,7 +5,6 @@
 
 (ཡོང་ཁུངས། བུ་སྟོན།) ཁྱོད་ཀྱིས་ལུས་ཐུལ་བའི་རྒྱུ་མཚན་ཅི་ཡོད།
 
-<img src = 'https://github.com/OpenPecha/tibetannlp.com/blob/main/docs/bo/table_images/AUX_01.png?raw=true'>
-
-<img src = 'https://github.com/OpenPecha/tibetannlp.com/blob/main/docs/bo/tree_images/AUX_01.png?raw=true'>
+![aux_01_table](../../bo/table_images/AUX_01.png)
+![aux_02_tree](../../bo/tree_images/AUX_01.png)
 
