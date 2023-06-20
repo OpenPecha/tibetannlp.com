@@ -1,8 +1,8 @@
 [<-back](en/pos/pos_tags.md)
 
 
-
-### 3.5 Converbs
+<!-- tabs:start -->
+#### **CV - Converbs**
 
 Unlike the name suggests, converbs in this annotation manual are not actually verbs, but the
 subordinate conjunctions attached to subordinate clause verbs. These 'converbs' are
@@ -200,3 +200,9 @@ marks an infinitive clause that expresses purpose of an action:
 sons of mine who are about to be killed.”</br>
 
 (MB D 138v, Bialek 2022 p.146)
+
+#### **བོད་ཡིག**
+
+༄༅། །ཕྱི་ལོ་ ༢༠༢༣ ཟླ་ ༦ ཚེས་ ༡༥ ཉིན་སྤྱི་ནོར་༸གོང་ས་༸སྐྱབས་མགོན་ཆེན་པོ་མཆོག་གིས་རྒྱ་གར་གྱི་རྒྱལ་ས་ལྡི་ལིར་རྟེན་གཞི་བྱས་པའི་༸གོང་ས་ཏཱ་ལའི་བླ་མའི་ཀུན་ཁྱབ་འགན་ཁུར་ཐེབས་རྩས་(FURHHDL)མཐུན་འགྱུར་འོག་རྒྱ་གར་རྒྱལ་ཡོངས་མཐོ་རིམ་སློབ་གྲྭ་ཁག་ཏུ་སློབ་གཉེར་གནང་བཞིན་པའི་སློབ་ཕྲུག་ ༢༤ ལ་མཇལ་ཁ་དང་བཀའ་སློབ་སྩལ་ཡོད་པ་རེད།
+
+<!-- tabs:end -->

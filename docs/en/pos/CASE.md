@@ -1,8 +1,8 @@
 [<-back](en/pos/pos_tags.md)
 
 
-
-### 3.3 Case markers
+<!-- tabs:start -->
+#### **Case markers**
 
 Case markers are always separated from the nouns they modify and receive their own
 dedicated case tag. In our annotation scheme we do not annotate the absolutive case since
@@ -259,3 +259,9 @@ addition, it can form adverbs.
 ལྷའི་གནས་སུ་ “in a deities’ place” (MB D 140r3 - Bialek 2022 p.75)
 The terminative can also be used also to express a beneficiary or a result of an action and it
 19can mark oblique arguments of certain verbs (for more examples see Bialek 2022 p.75).
+
+#### **བོད་ཡིག**
+
+༄༅། །ཕྱི་ལོ་ ༢༠༢༣ ཟླ་ ༦ ཚེས་ ༡༥ ཉིན་སྤྱི་ནོར་༸གོང་ས་༸སྐྱབས་མགོན་ཆེན་པོ་མཆོག་གིས་རྒྱ་གར་གྱི་རྒྱལ་ས་ལྡི་ལིར་རྟེན་གཞི་བྱས་པའི་༸གོང་ས་ཏཱ་ལའི་བླ་མའི་ཀུན་ཁྱབ་འགན་ཁུར་ཐེབས་རྩས་(FURHHDL)མཐུན་འགྱུར་འོག་རྒྱ་གར་རྒྱལ་ཡོངས་མཐོ་རིམ་སློབ་གྲྭ་ཁག་ཏུ་སློབ་གཉེར་གནང་བཞིན་པའི་སློབ་ཕྲུག་ ༢༤ ལ་མཇལ་ཁ་དང་བཀའ་སློབ་སྩལ་ཡོད་པ་རེད།
+
+<!-- tabs:end -->

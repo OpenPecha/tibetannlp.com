@@ -1,8 +1,8 @@
 [<-back](en/pos/pos_tags.md)
 
 
-
-### 3.6 Determiners
+<!-- tabs:start -->
+#### **DET - Determiners**
 
 Determiners are tagged d.X. We distinguish between demonstratives, emphasising
 determiners, indefinite markers, plural markers, quantifiers and "tsam".
@@ -236,3 +236,9 @@ n.count</br>
 d.tsam</br>
 Tsam and words with similar distribution. Words tagged with this tag include ཙམ་, སྙེད་, ཙམ་
 29པ་, རྙེད་ (a misspelling for སྙེད་), ཙམ་པ, སྙད་, and སྙེད་པ.
+
+#### **བརྣན་ཚིག**
+
+༄༅། །ཕྱི་ལོ་ ༢༠༢༣ ཟླ་ ༦ ཚེས་ ༡༥ ཉིན་སྤྱི་ནོར་༸གོང་ས་༸སྐྱབས་མགོན་ཆེན་པོ་མཆོག་གིས་རྒྱ་གར་གྱི་རྒྱལ་ས་ལྡི་ལིར་རྟེན་གཞི་བྱས་པའི་༸གོང་ས་ཏཱ་ལའི་བླ་མའི་ཀུན་ཁྱབ་འགན་ཁུར་ཐེབས་རྩས་(FURHHDL)མཐུན་འགྱུར་འོག་རྒྱ་གར་རྒྱལ་ཡོངས་མཐོ་རིམ་སློབ་གྲྭ་ཁག་ཏུ་སློབ་གཉེར་གནང་བཞིན་པའི་སློབ་ཕྲུག་ ༢༤ ལ་མཇལ་ཁ་དང་བཀའ་སློབ་སྩལ་ཡོད་པ་རེད།
+
+<!-- tabs:end -->

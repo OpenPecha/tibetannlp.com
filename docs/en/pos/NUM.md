@@ -1,8 +1,8 @@
 [<-back](en/pos/pos_tags.md)
 
 
-
-### 3.11 Numerals
+<!-- tabs:start -->
+#### **NUM - Numerals**
 
 In numbers we distinguish cardinals ( གཅིག་ གཉིས་ གསུམ་ etc.) and ordinals ( དང་པོ་ གཉིས་པ་ གསུམ་པ་ etc.).
 
@@ -38,3 +38,9 @@ Ordinal number. Ordinal numbers are tagged num.ord. Some adjectives can be
 distinguished from ordinal numbers only in context. For example, in the phrase རྡོ་རྗེ་རྩེ་ལྔ་པ་ 'a
 five-pronged vajra' the noun phrase syntax and the overall meaning of the passage dictates
 that ལྔ་པ་ is part of the word རྩེ་ལྔ་པ་ 'five-pronged' rather than an ordinal number 'fifth'.
+
+#### **གྲངས་ཚིག**
+
+༄༅། །ཕྱི་ལོ་ ༢༠༢༣ ཟླ་ ༦ ཚེས་ ༡༥ ཉིན་སྤྱི་ནོར་༸གོང་ས་༸སྐྱབས་མགོན་ཆེན་པོ་མཆོག་གིས་རྒྱ་གར་གྱི་རྒྱལ་ས་ལྡི་ལིར་རྟེན་གཞི་བྱས་པའི་༸གོང་ས་ཏཱ་ལའི་བླ་མའི་ཀུན་ཁྱབ་འགན་ཁུར་ཐེབས་རྩས་(FURHHDL)མཐུན་འགྱུར་འོག་རྒྱ་གར་རྒྱལ་ཡོངས་མཐོ་རིམ་སློབ་གྲྭ་ཁག་ཏུ་སློབ་གཉེར་གནང་བཞིན་པའི་སློབ་ཕྲུག་ ༢༤ ལ་མཇལ་ཁ་དང་བཀའ་སློབ་སྩལ་ཡོད་པ་རེད།
+
+<!-- tabs:end -->

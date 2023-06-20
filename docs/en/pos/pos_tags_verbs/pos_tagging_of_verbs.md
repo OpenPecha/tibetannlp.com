@@ -1,4 +1,3 @@
-[<-back](en/pos/pos_tags.md)
 
 
 <!-- tabs:start -->

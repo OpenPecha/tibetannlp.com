@@ -1,8 +1,8 @@
 [<-back](en/pos/pos_tags.md)
 
 
-
-### 3.4 Clitics
+<!-- tabs:start -->
+#### **CL - Clitics**
 
 cl.focus</br>
 Focus clitic. Focus clitics ཀྱང་ and ཡང་ are tagged cl.focus. Other words currently tagged with
@@ -21,3 +21,9 @@ Quotative clitic. The 'quotative clitic' has the allomorphs ཅེས་, ཞེ
 པ, etc. reveal that these are originally verbs, but it in order to do justice to their new function
 and to facilitate research into (in)direct speech, we keep the tag cl.quot. A selection of words
 tagged with this tag are: ཞེས་, ཅེས་, ཞེས་པ་, ཞེ་ , ཅེས་པ་, ཤེ་ , ཅེ་ , ཅེས་བ་, ཞིས་ (a misspelling of ཞེས་), and ཞེས་བ.
+
+#### **བོད་ཡིག**
+
+༄༅། །ཕྱི་ལོ་ ༢༠༢༣ ཟླ་ ༦ ཚེས་ ༡༥ ཉིན་སྤྱི་ནོར་༸གོང་ས་༸སྐྱབས་མགོན་ཆེན་པོ་མཆོག་གིས་རྒྱ་གར་གྱི་རྒྱལ་ས་ལྡི་ལིར་རྟེན་གཞི་བྱས་པའི་༸གོང་ས་ཏཱ་ལའི་བླ་མའི་ཀུན་ཁྱབ་འགན་ཁུར་ཐེབས་རྩས་(FURHHDL)མཐུན་འགྱུར་འོག་རྒྱ་གར་རྒྱལ་ཡོངས་མཐོ་རིམ་སློབ་གྲྭ་ཁག་ཏུ་སློབ་གཉེར་གནང་བཞིན་པའི་སློབ་ཕྲུག་ ༢༤ ལ་མཇལ་ཁ་དང་བཀའ་སློབ་སྩལ་ཡོད་པ་རེད།
+
+<!-- tabs:end -->

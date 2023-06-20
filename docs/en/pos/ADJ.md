@@ -1,7 +1,7 @@
 [<-back](en/pos/pos_tags.md)
 
-
-### 3.1 Adjectives
+<!-- tabs:start -->
+#### **ADJ - Adjectives**
 
 There is only one tag for adjectives: adj. We do not distinguish different types of adjectives or different grades of adjectives. Note that in general, verbs derived from adjectives are tagged (n.)v.invar unless they have -s, in which case they are (n.)v.past (see section on verbs).
 
@@ -83,3 +83,9 @@ A similar example is found in (3): 'because his discipline was small, his accomp
 ནི་ cl.focus</br>
 ཉུང་ v.invar</br>
 སྟེ cv.sem
+
+#### **རྒྱན་ཚིག**
+
+༄༅། །ཕྱི་ལོ་ ༢༠༢༣ ཟླ་ ༦ ཚེས་ ༡༥ ཉིན་སྤྱི་ནོར་༸གོང་ས་༸སྐྱབས་མགོན་ཆེན་པོ་མཆོག་གིས་རྒྱ་གར་གྱི་རྒྱལ་ས་ལྡི་ལིར་རྟེན་གཞི་བྱས་པའི་༸གོང་ས་ཏཱ་ལའི་བླ་མའི་ཀུན་ཁྱབ་འགན་ཁུར་ཐེབས་རྩས་(FURHHDL)མཐུན་འགྱུར་འོག་རྒྱ་གར་རྒྱལ་ཡོངས་མཐོ་རིམ་སློབ་གྲྭ་ཁག་ཏུ་སློབ་གཉེར་གནང་བཞིན་པའི་སློབ་ཕྲུག་ ༢༤ ལ་མཇལ་ཁ་དང་བཀའ་སློབ་སྩལ་ཡོད་པ་རེད།
+
+<!-- tabs:end -->
