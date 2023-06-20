@@ -1,4 +1,4 @@
-#### 2. Word segmentation
+# Word segmentation
 
 Our main protocol is that case markers and converbs are split from the preceding noun
 phrases. In general, we split as much as possible to create more insight into the internal
@@ -7,7 +7,7 @@ phrases. In general, we split as much as possible to create more insight into th
 titles and compounds (see also section on n.count). All data are taken from our training data
 or other corpora.
 
-### 2.1 Case markers & converb segmentation
+###  Case markers & converb segmentation
 (1)</br>
 དེ d.dem</br>
 ར་ case.term</br>
@@ -26,7 +26,7 @@ or other corpora.
 དེ cv.sem</br>
 ། punc
 
-### 2.2 Personal Names and Titles
+### Personal Names and Titles
 
 With personal names, which are tagged as n.prop ('proper noun'), we split as much as
 possible to create more insight into the internal structure of the sentence. The same goes for
@@ -57,7 +57,7 @@ commonly used titles, as shown in (3):
 ཀློག་སྐྱ་ n.prop</br>
 ཆེན་པོ adj
 
-### 2.3 Compound nouns
+### Compound nouns
 
 In general, when two nouns occur in succession they are understood as a compound. Since
 our main principle is to split meaningful segments as much as possible, we have very few
@@ -70,7 +70,7 @@ poison', we treat བཙན་དུག་ 'mighty poison' as a single word. Sim
 བདག་གི་བ་ 'that which is mine' are single words.
 
 
-### 2.4 Complex & light verb constructions
+### Complex & light verb constructions
 
 We do not annotate light-verb constructions but we introduce a list of special verbs and
 verbal nouns that will help researchers to identify such potential constructions later.

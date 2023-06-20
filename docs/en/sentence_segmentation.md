@@ -1,4 +1,4 @@
-#### 4. Sentence segmentation
+#  Sentence segmentation
 Since we cannot rely on punctuation in Tibetan, we have to create clear protocols for
 sentence segmentation. We follow these basic principles:
 
@@ -10,7 +10,7 @@ copulas);
 consistently annotated;
 4. Direct speech is regarded as a separate sentence in the corpus.
 
-### 4.1 Protocols for < utt >
+###  Protocols for < utt >
 We summarise our detailed protocols for adding utterance boundaries "< utt >" in the
 following table, which tells when to insert a sentence boundary, marked by < utt > and when
 to make sure there is NO sentence boundary. Annotators should be aware that these
@@ -35,7 +35,7 @@ utterance boundaries are added and explained in sections 4.2 and 4.3.
 
 
 
-### 4.2 Insert sentence boundaries
+###  Insert sentence boundaries
 We segment sentences in the cases outlined below. If there is a ། shad or any other form of
 punctuation, the sentence boundary marked by "< utt >" follows the punctuation marker(s).
 Note that these punctuation markers are often, but not always there. Even if they are not there, we follow the sentence segmentation protocols outlined in this section for consistency.
