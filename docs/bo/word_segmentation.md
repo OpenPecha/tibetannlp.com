@@ -1,4 +1,7 @@
-# Word segmentation
+
+<!-- tabs:start -->
+
+#### **word segmentation**
 
 Our main protocol is that case markers and converbs are split from the preceding noun
 phrases. In general, we split as much as possible to create more insight into the internal
@@ -7,7 +10,17 @@ phrases. In general, we split as much as possible to create more insight into th
 titles and compounds (see also section on n.count). All data are taken from our training data
 or other corpora.
 
-###  Case markers & converb segmentation
+#### **བོད་ཡིག**
+
+དེ་ཡང་མགོན་པོ་གང་ཉིད་མཆོག་གིས་དད་ལྡན་མི་མང་བརྒྱ་ཕྲག་བརྒལ་བར་མཇལ་ཁ་སྩལ་རྗེས་ཕོ་བྲང་མཇལ་འཕྲད་ཁང་དུ་ཆེད་ཕེབས་ཀྱིས་རྒྱ་གར་གྱི་ནང་པའི་རྗེས་འཇུག་པ་བརྒྱ་ཕྲག་ཙམ་ལ་བཀའ་སློབ་སྩལ་དོན། </br>
+དེ་རིང་འདིར་རྒྱ་གར་གྱི་ས་ཁུལ་མང་པོ་ཞིག་ནས་ནང་ཆོས་ལ་དོ་སྣང་ཡོད་མཁན་ཁྱོད་ཚོ་རུབ་རུབ་བྱས་ཏེ་ངོས་རང་ཐུག་པའི་གོ་སྐབས་བྱུང་བ་ལ་ཧ་ཅང་དགའ་བོ་བྱུང་། ངོས་རང་ནང་པའི་དགེ་སློང་ཞིག་རེད། ཆོས་ལུགས་ཚང་མར་གུས་ཞབས་བྱེད་ཀྱི་ཡོད། </br> ཆོས་ལུགས་ཚང་མར་ལྟ་གྲུབ་མི་འདྲ་བ་ཡོད་ཀྱང་སེམས་ཀྱི་ཞི་བདེ་དགོས་པ་དང་བྱམས་བརྩེ་དགོས་པ་ཚང་མས་གསུང་གི་ཡོད། ནང་གསེས་ཀྱི་ལྟ་གྲུབ་མི་འདྲ་བའི་ཐོག་དྲི་བ་དྲིས་ལན་བྱེད་པ་ལྟ་བུ་ནང་པ་རང་གི་ནང་དུའང་གྲུབ་མཐའ་སྨྲ་བ་བཞི་ཞེས་མི་འདྲ་བ་ཡོང་གི་ཡོད། </br> 
+
+<!-- tabs:end -->
+
+### Case markers & converb segmentation
+<!-- tabs:start -->
+
+#### **Case markers & converb segmentation**
 (1)</br>
 དེ d.dem</br>
 ར་ case.term</br>
@@ -26,7 +39,16 @@ or other corpora.
 དེ cv.sem</br>
 ། punc
 
+#### **བོད་ཡིག**
+
+དེ་ཡང་མགོན་པོ་གང་ཉིད་མཆོག་གིས་དད་ལྡན་མི་མང་བརྒྱ་ཕྲག་བརྒལ་བར་མཇལ་ཁ་སྩལ་རྗེས་ཕོ་བྲང་མཇལ་འཕྲད་ཁང་དུ་ཆེད་ཕེབས་ཀྱིས་རྒྱ་གར་གྱི་ནང་པའི་རྗེས་འཇུག་པ་བརྒྱ་ཕྲག་ཙམ་ལ་བཀའ་སློབ་སྩལ་དོན། </br>
+དེ་རིང་འདིར་རྒྱ་གར་གྱི་ས་ཁུལ་མང་པོ་ཞིག་ནས་ནང་ཆོས་ལ་དོ་སྣང་ཡོད་མཁན་ཁྱོད་ཚོ་རུབ་རུབ་བྱས་ཏེ་ངོས་རང་ཐུག་པའི་གོ་སྐབས་བྱུང་བ་ལ་ཧ་ཅང་དགའ་བོ་བྱུང་། ངོས་རང་ནང་པའི་དགེ་སློང་ཞིག་རེད། ཆོས་ལུགས་ཚང་མར་གུས་ཞབས་བྱེད་ཀྱི་ཡོད། </br> 
+<!-- tabs:end -->
+
 ### Personal Names and Titles
+<!-- tabs:start -->
+
+#### **Personal Names and Titles**
 
 With personal names, which are tagged as n.prop ('proper noun'), we split as much as
 possible to create more insight into the internal structure of the sentence. The same goes for
@@ -57,7 +79,19 @@ commonly used titles, as shown in (3):
 ཀློག་སྐྱ་ n.prop</br>
 ཆེན་པོ adj
 
+
+#### **བོད་ཡིག**
+
+དེ་ཡང་མགོན་པོ་གང་ཉིད་མཆོག་གིས་དད་ལྡན་མི་མང་བརྒྱ་ཕྲག་བརྒལ་བར་མཇལ་ཁ་སྩལ་རྗེས་ཕོ་བྲང་མཇལ་འཕྲད་ཁང་དུ་ཆེད་ཕེབས་ཀྱིས་རྒྱ་གར་གྱི་ནང་པའི་རྗེས་འཇུག་པ་བརྒྱ་ཕྲག་ཙམ་ལ་བཀའ་སློབ་སྩལ་དོན། </br>
+དེ་རིང་འདིར་རྒྱ་གར་གྱི་ས་ཁུལ་མང་པོ་ཞིག་ནས་ནང་ཆོས་ལ་དོ་སྣང་ཡོད་མཁན་ཁྱོད་ཚོ་རུབ་རུབ་བྱས་ཏེ་ངོས་རང་ཐུག་པའི་གོ་སྐབས་བྱུང་བ་ལ་ཧ་ཅང་དགའ་བོ་བྱུང་། ངོས་རང་ནང་པའི་དགེ་སློང་ཞིག་རེད། ཆོས་ལུགས་ཚང་མར་གུས་ཞབས་བྱེད་ཀྱི་ཡོད། </br> ཆོས་ལུགས་ཚང་མར་ལྟ་གྲུབ་མི་འདྲ་བ་ཡོད་ཀྱང་སེམས་ཀྱི་ཞི་བདེ་དགོས་པ་དང་བྱམས་བརྩེ་དགོས་པ་ཚང་མས་གསུང་གི་ཡོད། 
+
+<!-- tabs:end -->
+
+
 ### Compound nouns
+<!-- tabs:start -->
+
+#### **Compound nouns**
 
 In general, when two nouns occur in succession they are understood as a compound. Since
 our main principle is to split meaningful segments as much as possible, we have very few
@@ -69,8 +103,19 @@ treated as a compound. Thus, because དུག་བཙན་པོ་ would be 
 poison', we treat བཙན་དུག་ 'mighty poison' as a single word. Similarly, གང་ན་བ་ 'whereabouts' and
 བདག་གི་བ་ 'that which is mine' are single words.
 
+#### **བོད་ཡིག**
+
+དེ་ཡང་མགོན་པོ་གང་ཉིད་མཆོག་གིས་དད་ལྡན་མི་མང་བརྒྱ་ཕྲག་བརྒལ་བར་མཇལ་ཁ་སྩལ་རྗེས་ཕོ་བྲང་མཇལ་འཕྲད་ཁང་དུ་ཆེད་ཕེབས་ཀྱིས་རྒྱ་གར་གྱི་ནང་པའི་རྗེས་འཇུག་པ་བརྒྱ་ཕྲག་ཙམ་ལ་བཀའ་སློབ་སྩལ་དོན། </br>
+དེ་རིང་འདིར་རྒྱ་གར་གྱི་ས་ཁུལ་མང་པོ་ཞིག་ནས་ནང་ཆོས་ལ་དོ་སྣང་ཡོད་མཁན་ཁྱོད་ཚོ་རུབ་རུབ་བྱས་ཏེ་ངོས་རང་ཐུག་པའི་གོ་སྐབས་བྱུང་བ་ལ་ཧ་ཅང་དགའ་བོ་བྱུང་། ངོས་རང་ནང་པའི་དགེ་སློང་ཞིག་རེད། ཆོས་ལུགས་ཚང་མར་གུས་ཞབས་བྱེད་ཀྱི་ཡོད། </br> ཆོས་ལུགས་ཚང་མར་ལྟ་གྲུབ་མི་འདྲ་བ་ཡོད་ཀྱང་སེམས་ཀྱི་ཞི་བདེ་དགོས་པ་དང་བྱམས་བརྩེ་དགོས་པ་ཚང་མས་གསུང་གི་ཡོད། 
+
+<!-- tabs:end -->
+
 
 ### Complex & light verb constructions
+
+<!-- tabs:start -->
+
+#### **Complex & light verb constructions**
 
 We do not annotate light-verb constructions but we introduce a list of special verbs and
 verbal nouns that will help researchers to identify such potential constructions later.
@@ -115,3 +160,10 @@ We furthermore split complex verb constructions as much as possible:
 གཟུང་ v.fut</br>
 སླ་ v.pres</br>
 དང་ cv.ass
+
+#### **བོད་ཡིག**
+
+དེ་ཡང་མགོན་པོ་གང་ཉིད་མཆོག་གིས་དད་ལྡན་མི་མང་བརྒྱ་ཕྲག་བརྒལ་བར་མཇལ་ཁ་སྩལ་རྗེས་ཕོ་བྲང་མཇལ་འཕྲད་ཁང་དུ་ཆེད་ཕེབས་ཀྱིས་རྒྱ་གར་གྱི་ནང་པའི་རྗེས་འཇུག་པ་བརྒྱ་ཕྲག་ཙམ་ལ་བཀའ་སློབ་སྩལ་དོན། </br>
+དེ་རིང་འདིར་རྒྱ་གར་གྱི་ས་ཁུལ་མང་པོ་ཞིག་ནས་ནང་ཆོས་ལ་དོ་སྣང་ཡོད་མཁན་ཁྱོད་ཚོ་རུབ་རུབ་བྱས་ཏེ་ངོས་རང་ཐུག་པའི་གོ་སྐབས་བྱུང་བ་ལ་ཧ་ཅང་དགའ་བོ་བྱུང་། ངོས་རང་ནང་པའི་དགེ་སློང་ཞིག་རེད། ཆོས་ལུགས་ཚང་མར་གུས་ཞབས་བྱེད་ཀྱི་ཡོད། </br> ཆོས་ལུགས་ཚང་མར་ལྟ་གྲུབ་མི་འདྲ་བ་ཡོད་ཀྱང་སེམས་ཀྱི་ཞི་བདེ་དགོས་པ་དང་བྱམས་བརྩེ་དགོས་པ་ཚང་མས་གསུང་གི་ཡོད། 
+
+<!-- tabs:end -->
